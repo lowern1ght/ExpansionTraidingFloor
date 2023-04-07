@@ -15,4 +15,5 @@
     <picture>CommonPicture.РТЗ_ИконкаПодсистемы</picture>
   </picture>
   <content>Document.РТЗ_РозничныйЗаказ</content>
+  <content>DataProcessor.РТЗ_РаботаТорговогоЗала</content>
 </mdclass:Subsystem>

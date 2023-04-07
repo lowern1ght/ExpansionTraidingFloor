@@ -77,4 +77,5 @@
   <enums>Enum.СтатусыДействияВидовЦен</enums>
   <enums>Enum.ТипыНалогообложенияНДС</enums>
   <dataProcessors>DataProcessor.ПодборТоваровВДокументПродажи</dataProcessors>
+  <dataProcessors>DataProcessor.РТЗ_РаботаТорговогоЗала</dataProcessors>
 </mdclass:Configuration>

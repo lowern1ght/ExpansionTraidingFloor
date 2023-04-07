@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f48b2bc0-303a-43b5-a2b6-7fee15efc1b7">
+  <producedTypes>
+    <objectType typeId="6870227e-0656-4cbb-aa13-a27b88d336f5" valueTypeId="23dd081b-5786-45ad-816f-fdb33bf2f0ab"/>
+    <managerType typeId="18ad8cc4-dae6-4b20-b7f8-ba316f62f7a1" valueTypeId="bca244c0-8b0e-4369-90a6-dc08f9c3efa7"/>
+  </producedTypes>
+  <name>РТЗ_РаботаТорговогоЗала</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выписка товара</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:DataProcessor>
