@@ -35,7 +35,7 @@
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
-  <vendor>Энергосфера</vendor>
+  <vendor>lowern1ght</vendor>
   <version>0.2а</version>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <copyright>
@@ -52,5 +52,7 @@
     </extension>
     <languageCode>ru</languageCode>
   </languages>
-  <roles>Role.Расш1_ОсновнаяРоль</roles>
+  <subsystems>Subsystem.РТЗ_ТорговыйЗал</subsystems>
+  <commonPictures>CommonPicture.РТЗ_ИконкаПодсистемы</commonPictures>
+  <roles>Role.РТЗ_МенеджерТорговогоЗала</roles>
 </mdclass:Configuration>
