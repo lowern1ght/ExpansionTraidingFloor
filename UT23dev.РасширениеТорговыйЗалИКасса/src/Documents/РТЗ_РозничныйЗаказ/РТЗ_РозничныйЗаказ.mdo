@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c4283189-5937-451f-9fc0-7965c907ab44">
+  <producedTypes>
+    <objectType typeId="6e22aa7b-e7cd-49d3-8285-5b949d0d8827" valueTypeId="925edeb8-2301-4e18-8c02-1b946362734e"/>
+    <refType typeId="59c361a0-3425-4d56-9982-1d534379da39" valueTypeId="b26204f9-0b9f-4fc4-85b5-328a63ad7710"/>
+    <selectionType typeId="62419378-cdb9-49f8-8c38-f771d52fd7bc" valueTypeId="7b6d3961-d8b4-4fc6-a4ac-83d494f9e66e"/>
+    <listType typeId="93bc465b-d438-4168-8dff-b1b894dd2766" valueTypeId="e04ea56d-7e08-47aa-94d7-2a76b554e0d1"/>
+    <managerType typeId="d76608c0-dd27-46ba-8ab2-66b489f42ecb" valueTypeId="49f35594-a8ee-4d54-8f7b-7f9112dfd331"/>
+  </producedTypes>
+  <name>РТЗ_РозничныйЗаказ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Розничный заказ</value>
+  </synonym>
+  <comment>Розничный документ заказа товара</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.РТЗ_РозничныйЗаказ.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Розничный заказ</value>
+  </objectPresentation>
+  <extendedObjectPresentation>
+    <key>ru</key>
+    <value>Розничный заказ</value>
+  </extendedObjectPresentation>
+  <numberType>String</numberType>
+  <numberLength>12</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+</mdclass:Document>

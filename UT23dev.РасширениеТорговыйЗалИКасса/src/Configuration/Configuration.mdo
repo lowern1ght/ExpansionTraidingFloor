@@ -53,6 +53,28 @@
     <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.РТЗ_ТорговыйЗал</subsystems>
+  <styleItems>StyleItem.ГруппаВариантовОтчетовЦвет82</styleItems>
+  <styleItems>StyleItem.ПоясняющийТекст</styleItems>
+  <commonPictures>CommonPicture.Набор</commonPictures>
+  <commonPictures>CommonPicture.Наборы</commonPictures>
+  <commonPictures>CommonPicture.Номенклатура</commonPictures>
+  <commonPictures>CommonPicture.НоменклатураПродаваемаяСовместно</commonPictures>
+  <commonPictures>CommonPicture.ПрочиеПользовательскиеНастройки</commonPictures>
   <commonPictures>CommonPicture.РТЗ_ИконкаПодсистемы</commonPictures>
-  <roles>Role.РТЗ_МенеджерТорговогоЗала</roles>
+  <commonPictures>CommonPicture.СостояниеНоменклатурыПродаваемойСовместно</commonPictures>
+  <commonPictures>CommonPicture.ФильтрПоСвойствам</commonPictures>
+  <definedTypes>DefinedType.ДенежнаяСуммаЛюбогоЗнака</definedTypes>
+  <definedTypes>DefinedType.Пользователь</definedTypes>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.Партнеры</catalogs>
+  <catalogs>Catalog.Пользователи</catalogs>
+  <catalogs>Catalog.Склады</catalogs>
+  <catalogs>Catalog.СоглашенияСКлиентами</catalogs>
+  <catalogs>Catalog.УпаковкиЕдиницыИзмерения</catalogs>
+  <catalogs>Catalog.ФизическиеЛица</catalogs>
+  <documents>Document.РТЗ_РозничныйЗаказ</documents>
+  <enums>Enum.СпособыФормированияСегментов</enums>
+  <enums>Enum.СтатусыДействияВидовЦен</enums>
+  <enums>Enum.ТипыНалогообложенияНДС</enums>
+  <dataProcessors>DataProcessor.ПодборТоваровВДокументПродажи</dataProcessors>
 </mdclass:Configuration>
