@@ -7,7 +7,12 @@
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
+  <explanation>
+    <key>ru</key>
+    <value>Подсистема для работы менеджеров торгового зала</value>
+  </explanation>
   <picture xsi:type="core:PictureRef">
     <picture>CommonPicture.РТЗ_ИконкаПодсистемы</picture>
   </picture>
+  <content>Document.РТЗ_РозничныйЗаказ</content>
 </mdclass:Subsystem>
