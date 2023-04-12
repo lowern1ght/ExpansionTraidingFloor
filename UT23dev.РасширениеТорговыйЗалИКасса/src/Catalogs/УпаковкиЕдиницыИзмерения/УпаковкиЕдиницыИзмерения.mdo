@@ -12,12 +12,4 @@
   <extension xsi:type="mdclassExtension:CatalogExtension">
     <extendedConfigurationObject>Checked</extendedConfigurationObject>
   </extension>
-  <forms uuid="308e840a-b3ce-4a88-9a84-a898a72a6bd9" extendedConfigurationObject="8427345f-19e4-4b63-b05a-3ac7a3b477f0">
-    <name>ФормаВыбораИзДокументов</name>
-    <objectBelonging>Adopted</objectBelonging>
-    <extension xsi:type="mdclassExtension:BasicFormExtension">
-      <extendedConfigurationObject>Checked</extendedConfigurationObject>
-      <form>Extended</form>
-    </extension>
-  </forms>
 </mdclass:Catalog>
