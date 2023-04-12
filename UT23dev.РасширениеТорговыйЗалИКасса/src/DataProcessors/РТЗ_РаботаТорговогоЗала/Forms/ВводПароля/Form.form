@@ -125,6 +125,7 @@
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
+      <groupHorizontalAlign>Right</groupHorizontalAlign>
       <placementArea>UserCmds</placementArea>
       <representationInContextMenu>Auto</representationInContextMenu>
     </items>
@@ -173,14 +174,12 @@
     <event>BeforeClose</event>
     <name>ПередЗакрытием</name>
   </handlers>
-  <autoTitle>true</autoTitle>
+  <width>25</width>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
   <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>
-  <showTitle>true</showTitle>
-  <showCloseButton>true</showCloseButton>
   <attributes>
     <name>Пароль</name>
     <title>

@@ -581,6 +581,23 @@
       </edit>
     </columns>
   </attributes>
+  <attributes>
+    <name>Менеджер</name>
+    <title>
+      <key>ru</key>
+      <value>Менеджер</value>
+    </title>
+    <id>7</id>
+    <valueType>
+      <types>CatalogRef.Пользователи</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
   <formCommands>
     <name>Сформировать</name>
     <title>
