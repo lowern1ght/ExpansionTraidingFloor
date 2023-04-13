@@ -170,10 +170,6 @@
     </userVisible>
     <horizontalAlign>Left</horizontalAlign>
   </autoCommandBar>
-  <handlers>
-    <event>BeforeClose</event>
-    <name>ПередЗакрытием</name>
-  </handlers>
   <width>25</width>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>

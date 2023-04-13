@@ -16,4 +16,5 @@
   </picture>
   <content>Document.РТЗ_РозничныйЗаказ</content>
   <content>DataProcessor.РТЗ_РаботаТорговогоЗала</content>
+  <content>Role.РТЗ_ПодсистемаТорговыйЗал</content>
 </mdclass:Subsystem>

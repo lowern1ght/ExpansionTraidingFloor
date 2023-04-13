@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f5f78326-315d-4228-a600-93be65df28c8">
+  <name>РТЗ_ПодсистемаТорговыйЗал</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подсистема торговый зал</value>
+  </synonym>
+</mdclass:Role>
