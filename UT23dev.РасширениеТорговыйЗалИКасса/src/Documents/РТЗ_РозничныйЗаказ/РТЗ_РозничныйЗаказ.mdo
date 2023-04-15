@@ -20,12 +20,16 @@
   <fullTextSearch>Use</fullTextSearch>
   <objectPresentation>
     <key>ru</key>
-    <value>Розничный заказ</value>
+    <value>Заказ</value>
   </objectPresentation>
   <extendedObjectPresentation>
     <key>ru</key>
     <value>Розничный заказ</value>
   </extendedObjectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Розничные заказы</value>
+  </listPresentation>
   <numberType>String</numberType>
   <numberLength>12</numberLength>
   <numberAllowedLength>Variable</numberAllowedLength>
@@ -200,4 +204,13 @@
       <value>Заказ</value>
     </synonym>
   </templates>
+  <commands uuid="1f90e044-4452-4f6c-a6a0-5d2efbae5aac">
+    <name>РаботаТорговогоЗала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Работа торгового зала</value>
+    </synonym>
+    <group>NavigationPanelImportant</group>
+    <representation>Auto</representation>
+  </commands>
 </mdclass:Document>

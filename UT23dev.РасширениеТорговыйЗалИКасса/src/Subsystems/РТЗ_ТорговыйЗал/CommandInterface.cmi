@@ -10,10 +10,47 @@
         </for>
       </visible>
     </visibilityFragments>
+    <visibilityFragments>
+      <command>Document.РТЗ_РозничныйЗаказ.StandardCommand.OpenList</command>
+      <visible>
+        <common>true</common>
+        <for>
+          <value>true</value>
+          <role>Role.РТЗ_Терминал</role>
+        </for>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Document.РТЗ_РозничныйЗаказ.Command.РаботаТорговогоЗала</command>
+      <visible>
+        <common>true</common>
+        <for>
+          <role>Role.РТЗ_ПодсистемаТорговыйЗал</role>
+        </for>
+        <for>
+          <value>true</value>
+          <role>Role.РТЗ_Терминал</role>
+        </for>
+      </visible>
+    </visibilityFragments>
   </commandsVisibility>
+  <commandsPlacement>
+    <placementFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>Document.РТЗ_РозничныйЗаказ.Command.РаботаТорговогоЗала</commands>
+    </placementFragments>
+    <placementFragments>
+      <group>NavigationPanelSeeAlso</group>
+      <commands>Document.РТЗ_РозничныйЗаказ.StandardCommand.OpenList</commands>
+    </placementFragments>
+  </commandsPlacement>
   <commandsOrder>
     <orderFragments>
       <group>NavigationPanelOrdinary</group>
+      <commands>Document.РТЗ_РозничныйЗаказ.Command.РаботаТорговогоЗала</commands>
+    </orderFragments>
+    <orderFragments>
+      <group>NavigationPanelSeeAlso</group>
       <commands>Document.РТЗ_РозничныйЗаказ.StandardCommand.OpenList</commands>
     </orderFragments>
   </commandsOrder>
