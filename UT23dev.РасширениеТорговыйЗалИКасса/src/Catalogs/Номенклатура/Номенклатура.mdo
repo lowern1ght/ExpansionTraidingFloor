@@ -12,4 +12,33 @@
   <extension xsi:type="mdclassExtension:CatalogExtension">
     <extendedConfigurationObject>Checked</extendedConfigurationObject>
   </extension>
+  <attributes uuid="bb7cbec5-b7ad-4e33-ae3f-68a07e2f4596" extendedConfigurationObject="722c3d13-753d-4b4f-82b9-d41340f96d79">
+    <name>Артикул</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="14b5af16-6894-46bc-bd1a-18a8e30a5d7e" extendedConfigurationObject="3d295926-ac21-4f62-b76e-64c929f1fc0e">
+    <name>ЕдиницаИзмерения</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.УпаковкиЕдиницыИзмерения</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
 </mdclass:Catalog>

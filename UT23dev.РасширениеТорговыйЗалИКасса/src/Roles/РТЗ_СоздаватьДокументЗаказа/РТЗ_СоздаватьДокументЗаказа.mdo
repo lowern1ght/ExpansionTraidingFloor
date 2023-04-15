@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c4ad9a72-043c-4cf7-b192-c25afe0810e8">
+  <name>РТЗ_СоздаватьДокументЗаказа</name>
+  <synonym>
+    <key>ru</key>
+    <value>Создавать документ заказа</value>
+  </synonym>
+</mdclass:Role>

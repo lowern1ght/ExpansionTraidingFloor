@@ -70,6 +70,7 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <defaultItem>true</defaultItem>
       <extendedTooltip>
         <name>ГотовоРасширеннаяПодсказка</name>
         <id>11</id>

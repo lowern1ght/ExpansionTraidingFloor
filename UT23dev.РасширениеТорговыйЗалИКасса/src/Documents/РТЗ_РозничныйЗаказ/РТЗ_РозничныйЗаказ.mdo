@@ -31,6 +31,9 @@
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.РТЗ_РозничныйЗаказ.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.РТЗ_РозничныйЗаказ.Form.ФормаСписка</defaultListForm>
+  <registerRecordsDeletion>AutoDelete</registerRecordsDeletion>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="a50da375-8749-426d-b033-29b4b57fdf31">
@@ -48,6 +51,57 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="46d9dfe6-14de-4db7-93c2-05aec5f7b185">
+    <name>ИдентификаторЗаказа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор заказа</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="744a6beb-71cf-401c-a6b4-02bf4241faea">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="de712a82-edbf-49a7-98ab-7836e932f14a">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5f2473c8-2186-45b2-a0fe-40a09d4f7971">
+    <name>ФормаТорговыйЗал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма торговый зал</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="1cf9582c-ded4-42b6-b802-a012e7cc541f">
+    <name>ВводПароля</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ввод пароля</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <tabularSections uuid="afdcfc4e-9553-4074-8103-757bc40663b1">
     <producedTypes>
       <objectType typeId="d1fbf0ad-edc5-4484-bed7-f09a621039e5" valueTypeId="972283c9-74ba-4533-a005-37ed0c50378a"/>
@@ -91,6 +145,58 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
+    <attributes uuid="670350ba-9359-4afc-8b3b-074714e4f099">
+      <name>ВидЦены</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид цены</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ВидыЦен</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="74339544-5503-46e3-a393-f64d648f56fd">
+      <name>Цена</name>
+      <synonym>
+        <key>ru</key>
+        <value>Цена</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>19</precision>
+          <scale>3</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="87a2d8fc-60b6-473d-a58d-238003bb6d9f">
+      <name>Сумма</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>19</precision>
+          <scale>3</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
     <attributes uuid="4010e3e0-362e-47b9-b073-a5e0dc4144ec">
       <name>Склад</name>
       <synonym>
@@ -106,4 +212,11 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
+  <templates uuid="793a87ea-0b93-41ab-ac27-d1c29c41bda8">
+    <name>Заказ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказ</value>
+    </synonym>
+  </templates>
 </mdclass:Document>

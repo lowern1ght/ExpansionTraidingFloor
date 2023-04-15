@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="caaec6e8-ef10-4f48-9fe9-548e40410fed">
+  <name>РТЗ_ТерминалВыпискиЗаказов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Терминал выписки заказов</value>
+  </synonym>
+</mdclass:Role>
