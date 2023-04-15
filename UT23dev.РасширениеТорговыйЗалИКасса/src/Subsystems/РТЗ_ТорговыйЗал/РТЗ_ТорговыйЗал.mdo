@@ -15,7 +15,6 @@
     <picture>CommonPicture.РТЗ_ИконкаПодсистемы</picture>
   </picture>
   <content>Document.РТЗ_РозничныйЗаказ</content>
+  <content>Role.РТЗ_Терминал</content>
   <content>Role.РТЗ_ПодсистемаТорговыйЗал</content>
-  <content>Role.РТЗ_СоздаватьДокументЗаказа</content>
-  <content>Role.РТЗ_ТерминалВыпискиЗаказов</content>
 </mdclass:Subsystem>
