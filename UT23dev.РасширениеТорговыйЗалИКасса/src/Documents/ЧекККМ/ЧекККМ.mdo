@@ -12,4 +12,12 @@
   <extension xsi:type="mdclassExtension:DocumentExtension">
     <extendedConfigurationObject>Checked</extendedConfigurationObject>
   </extension>
+  <forms uuid="68276d66-d5df-4a6b-bfc1-718eaa96f8f8" extendedConfigurationObject="679b8da0-2374-41fa-b7bc-d4f541de8618">
+    <name>ФормаДокументаРМК</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
 </mdclass:Document>

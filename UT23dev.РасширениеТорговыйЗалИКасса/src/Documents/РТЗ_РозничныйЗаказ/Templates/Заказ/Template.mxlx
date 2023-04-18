@@ -77,7 +77,7 @@
 			<formatIndex>10</formatIndex>
 			<c>
 				<c>
-					<f>11</f>
+					<f>0</f>
 				</c>
 			</c>
 			<c>
@@ -445,7 +445,7 @@
 			<c>
 				<c>
 					<f>31</f>
-					<parameter>Цена</parameter>
+					<parameter>Количество</parameter>
 				</c>
 			</c>
 			<c>
@@ -462,7 +462,7 @@
 			<c>
 				<c>
 					<f>33</f>
-					<parameter>Количество</parameter>
+					<parameter>Цена</parameter>
 				</c>
 			</c>
 			<c>
@@ -928,6 +928,7 @@
 	</format>
 	<format>
 		<font>2</font>
+		<horizontalAlignment>Left</horizontalAlignment>
 		<verticalAlignment>Center</verticalAlignment>
 		<fillType>Parameter</fillType>
 		<bySelectedColumns>false</bySelectedColumns>

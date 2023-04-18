@@ -36,20 +36,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.РТЗ_РозничныйЗаказ.TabularSection.Корзина.Attribute.ВидЦены</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.РТЗ_РозничныйЗаказ.TabularSection.Корзина.Attribute.Цена</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>Document.РТЗ_РозничныйЗаказ.TabularSection.Корзина.Attribute.Склад</name>
 		<right>
 			<name>View</name>

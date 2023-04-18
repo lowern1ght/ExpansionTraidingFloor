@@ -36,22 +36,18 @@
   </commandsVisibility>
   <commandsPlacement>
     <placementFragments>
-      <group>NavigationPanelOrdinary</group>
-      <commands>Document.РТЗ_РозничныйЗаказ.Command.РаботаТорговогоЗала</commands>
-    </placementFragments>
-    <placementFragments>
       <group>NavigationPanelSeeAlso</group>
       <commands>Document.РТЗ_РозничныйЗаказ.StandardCommand.OpenList</commands>
     </placementFragments>
   </commandsPlacement>
   <commandsOrder>
     <orderFragments>
-      <group>NavigationPanelOrdinary</group>
-      <commands>Document.РТЗ_РозничныйЗаказ.Command.РаботаТорговогоЗала</commands>
-    </orderFragments>
-    <orderFragments>
       <group>NavigationPanelSeeAlso</group>
       <commands>Document.РТЗ_РозничныйЗаказ.StandardCommand.OpenList</commands>
+    </orderFragments>
+    <orderFragments>
+      <group>NavigationPanelImportant</group>
+      <commands>Document.РТЗ_РозничныйЗаказ.Command.РаботаТорговогоЗала</commands>
     </orderFragments>
   </commandsOrder>
 </cmi:CommandInterface>

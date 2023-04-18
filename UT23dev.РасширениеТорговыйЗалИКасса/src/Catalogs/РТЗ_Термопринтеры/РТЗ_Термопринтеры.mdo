@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3754a74a-ec7c-46bc-b178-f2cfd65bc909">
+  <producedTypes>
+    <objectType typeId="bd227c96-f2b9-4b5c-90ea-de0749e08e88" valueTypeId="13895284-fcf8-4f32-8a21-1e0a4b08e55f"/>
+    <refType typeId="b5f5696f-c379-42b3-adaa-b1c1b3372f9b" valueTypeId="2cbd7dda-e213-4e35-bfc8-8d9826ad425c"/>
+    <selectionType typeId="8d57bb88-86f1-40b2-b282-2e1abd13284d" valueTypeId="e724eda9-334e-4b61-9c56-7058634d42c2"/>
+    <listType typeId="4851292d-6195-4a9c-bf47-35603f5cbe73" valueTypeId="bd68eb1e-0ca7-41ae-ba17-fc8cd3527790"/>
+    <managerType typeId="de290576-832d-4094-8c16-eb82fd18e154" valueTypeId="7037a5e1-28c8-4892-872e-386448539270"/>
+  </producedTypes>
+  <name>РТЗ_Термопринтеры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Термопринтеры</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.РТЗ_Термопринтеры.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.РТЗ_Термопринтеры.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="dffa4658-e40f-444e-89f4-edbfe2faf417">
+    <name>Адрес</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="81a4fe29-ff35-4347-bddf-35c0543cf1cd">
+    <name>ИмяПринтера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя принтера</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

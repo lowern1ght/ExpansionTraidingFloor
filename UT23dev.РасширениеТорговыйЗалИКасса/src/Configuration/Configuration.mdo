@@ -56,7 +56,12 @@
   <subsystems>Subsystem.РТЗ_ТорговыйЗал</subsystems>
   <styleItems>StyleItem.ГруппаВариантовОтчетовЦвет82</styleItems>
   <styleItems>StyleItem.ПоясняющийТекст</styleItems>
+  <commonPictures>CommonPicture.ЗаполнитьФорму</commonPictures>
+  <commonPictures>CommonPicture.Набор</commonPictures>
+  <commonPictures>CommonPicture.Наборы</commonPictures>
   <commonPictures>CommonPicture.РТЗ_ИконкаПодсистемы</commonPictures>
+  <commonPictures>CommonPicture.СерииНоменклатурыКолонкаСтатусов</commonPictures>
+  <commonPictures>CommonPicture.СтатусыУказанияСерий</commonPictures>
   <roles>Role.РТЗ_ПодсистемаТорговыйЗал</roles>
   <roles>Role.РТЗ_Терминал</roles>
   <catalogs>Catalog.Валюты</catalogs>
@@ -64,6 +69,9 @@
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.Партнеры</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
+  <catalogs>Catalog.РТЗ_НастройкиПечати</catalogs>
+  <catalogs>Catalog.РТЗ_НастройкиТорговогоТерминала</catalogs>
+  <catalogs>Catalog.РТЗ_Термопринтеры</catalogs>
   <catalogs>Catalog.Склады</catalogs>
   <catalogs>Catalog.СоглашенияСКлиентами</catalogs>
   <catalogs>Catalog.УпаковкиЕдиницыИзмерения</catalogs>

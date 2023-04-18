@@ -17,4 +17,5 @@
   <content>Document.РТЗ_РозничныйЗаказ</content>
   <content>Role.РТЗ_Терминал</content>
   <content>Role.РТЗ_ПодсистемаТорговыйЗал</content>
+  <subsystems>НастройкиТорговогоТерминала</subsystems>
 </mdclass:Subsystem>
