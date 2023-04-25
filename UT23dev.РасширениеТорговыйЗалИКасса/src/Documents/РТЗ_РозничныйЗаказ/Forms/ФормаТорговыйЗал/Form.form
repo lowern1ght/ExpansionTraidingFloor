@@ -734,6 +734,43 @@
       </columns>
     </additionalColumns>
   </attributes>
+  <attributes>
+    <name>ДоступныеСклады</name>
+    <title>
+      <key>ru</key>
+      <value>Доступные склады</value>
+    </title>
+    <id>5</id>
+    <valueType>
+      <types>ValueList</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+    <extInfo xsi:type="form:ValueListExtInfo">
+      <itemValueType/>
+    </extInfo>
+  </attributes>
+  <attributes>
+    <name>ВидЦеныТерминала</name>
+    <title>
+      <key>ru</key>
+      <value>Вид цены терминала</value>
+    </title>
+    <id>7</id>
+    <valueType>
+      <types>CatalogRef.ВидыЦен</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
   <formCommands>
     <name>Сформировать</name>
     <title>

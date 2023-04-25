@@ -10,8 +10,7 @@
   <picture xsi:type="core:PictureRef">
     <picture>StdPicture.Setting</picture>
   </picture>
-  <content>Catalog.РТЗ_Термопринтеры</content>
-  <content>Catalog.РТЗ_НастройкиПечати</content>
-  <content>Catalog.РТЗ_НастройкиТорговогоТерминала</content>
+  <content>Catalog.РТЗ_НастройкаРабочегоМестаМенеджераТорговогоЗала</content>
+  <content>InformationRegister.РТЗ_НастрокиРабочегоМеста</content>
   <parentSubsystem>Subsystem.РТЗ_ТорговыйЗал</parentSubsystem>
 </mdclass:Subsystem>

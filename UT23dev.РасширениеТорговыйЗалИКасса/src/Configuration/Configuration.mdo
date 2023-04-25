@@ -69,9 +69,7 @@
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.Партнеры</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
-  <catalogs>Catalog.РТЗ_НастройкиПечати</catalogs>
-  <catalogs>Catalog.РТЗ_НастройкиТорговогоТерминала</catalogs>
-  <catalogs>Catalog.РТЗ_Термопринтеры</catalogs>
+  <catalogs>Catalog.РТЗ_НастройкаРабочегоМестаМенеджераТорговогоЗала</catalogs>
   <catalogs>Catalog.Склады</catalogs>
   <catalogs>Catalog.СоглашенияСКлиентами</catalogs>
   <catalogs>Catalog.УпаковкиЕдиницыИзмерения</catalogs>
@@ -81,4 +79,5 @@
   <enums>Enum.СпособыФормированияСегментов</enums>
   <enums>Enum.СтатусыДействияВидовЦен</enums>
   <enums>Enum.ТипыНалогообложенияНДС</enums>
+  <informationRegisters>InformationRegister.РТЗ_НастрокиРабочегоМеста</informationRegisters>
 </mdclass:Configuration>

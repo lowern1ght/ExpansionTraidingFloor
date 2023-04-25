@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bd6dcd90-1927-466c-9069-eb07f81783ee">
+  <producedTypes>
+    <selectionType typeId="f0ed0695-85d6-40b7-8cea-0cce6f34363a" valueTypeId="e15ef06a-8402-4415-8443-61a6c53996c7"/>
+    <listType typeId="29f41294-2389-4646-b774-7c47ef2e2151" valueTypeId="a91c64fd-dd48-40d6-a191-7adf18b0f83e"/>
+    <managerType typeId="72169eaa-f5f0-4a2c-9a35-0846054d02bf" valueTypeId="e182c389-25e9-4bbe-a26c-720efd50d2be"/>
+    <recordSetType typeId="a0331618-69bb-4fd1-b5ad-5338f732b42d" valueTypeId="0ca20bc6-1283-40cc-90b1-32d3f360d912"/>
+    <recordKeyType typeId="1fb5412f-dc3f-4c35-891c-36bc91145525" valueTypeId="426e006c-e2e3-4850-baf2-59ce37c81407"/>
+    <recordType typeId="f860a3d9-9b24-469b-ac24-e7523a76e7a6" valueTypeId="a1e95cde-a095-4e10-a3c2-1819c9856fd5"/>
+    <recordManagerType typeId="7b2848d6-13d4-42d4-8a25-2971ffec8d6d" valueTypeId="ee4b6431-ebf7-4501-8d7e-6d9cd8627c3b"/>
+  </producedTypes>
+  <name>РТЗ_НастрокиРабочегоМеста</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настроки рабочего места</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="9994bc6f-dca4-40b9-80f5-9dbb597bcd31">
+    <name>Настройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.РТЗ_НастройкаРабочегоМестаМенеджераТорговогоЗала</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="db53a54e-77f5-4d80-bddf-dc67d9ca67e2">
+    <name>Терминал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Терминал</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>
