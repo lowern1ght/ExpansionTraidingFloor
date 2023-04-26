@@ -686,6 +686,10 @@
     <event>OnOpen</event>
     <name>ПриОткрытии</name>
   </handlers>
+  <handlers>
+    <event>NotificationProcessing</event>
+    <name>ОбработкаОповещения</name>
+  </handlers>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
@@ -735,26 +739,6 @@
     </additionalColumns>
   </attributes>
   <attributes>
-    <name>ДоступныеСклады</name>
-    <title>
-      <key>ru</key>
-      <value>Доступные склады</value>
-    </title>
-    <id>5</id>
-    <valueType>
-      <types>ValueList</types>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-    <extInfo xsi:type="form:ValueListExtInfo">
-      <itemValueType/>
-    </extInfo>
-  </attributes>
-  <attributes>
     <name>ВидЦеныТерминала</name>
     <title>
       <key>ru</key>
@@ -763,6 +747,23 @@
     <id>7</id>
     <valueType>
       <types>CatalogRef.ВидыЦен</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>СкладТерминал</name>
+    <title>
+      <key>ru</key>
+      <value>Склад терминал</value>
+    </title>
+    <id>8</id>
+    <valueType>
+      <types>CatalogRef.Склады</types>
     </valueType>
     <view>
       <common>true</common>

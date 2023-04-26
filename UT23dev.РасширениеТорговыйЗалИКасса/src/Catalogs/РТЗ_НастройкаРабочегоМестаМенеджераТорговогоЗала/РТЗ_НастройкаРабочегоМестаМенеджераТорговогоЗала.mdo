@@ -45,45 +45,21 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <tabularSections uuid="e7c7a986-571b-4801-b3e9-689f6e186d12">
-    <producedTypes>
-      <objectType typeId="a69ed677-2108-451a-b504-ab035bc5fcfb" valueTypeId="af09599a-137e-49af-8d6e-c9168c5e02e9"/>
-      <rowType typeId="8d84f4d7-68fd-4c06-bb36-242714ff263b" valueTypeId="6bd3b6cf-397e-4ca6-93a5-0ce8df3a50dc"/>
-    </producedTypes>
-    <name>ДоступныеСклады</name>
+  <attributes uuid="3dd616bd-2dcb-49b6-982b-aff2e497375b">
+    <name>ГруппаСкладов</name>
     <synonym>
       <key>ru</key>
-      <value>Доступные склады</value>
+      <value>Группа складов</value>
     </synonym>
-    <attributes uuid="880720cb-38d5-41ed-b665-f87e7655379b">
-      <name>Склад</name>
-      <synonym>
-        <key>ru</key>
-        <value>Магазин</value>
-      </synonym>
-      <type>
-        <types>CatalogRef.Склады</types>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-    <attributes uuid="1c0d74d5-8a80-43cb-a198-6dae3a3ef322">
-      <name>Основной</name>
-      <synonym>
-        <key>ru</key>
-        <value>Основной</value>
-      </synonym>
-      <type>
-        <types>Boolean</types>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-  </tabularSections>
+    <type>
+      <types>CatalogRef.Склады</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="17073777-1faa-4a6e-969d-8e74723db3e1">
     <name>ФормаЭлемента</name>
     <synonym>
