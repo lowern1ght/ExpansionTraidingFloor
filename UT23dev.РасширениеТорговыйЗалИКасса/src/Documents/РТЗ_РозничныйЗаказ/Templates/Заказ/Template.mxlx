@@ -43,38 +43,38 @@
 		<columnsItem>
 			<index>8</index>
 			<column>
-				<formatIndex>5</formatIndex>
+				<formatIndex>3</formatIndex>
 			</column>
 		</columnsItem>
 		<columnsItem>
 			<index>7</index>
 			<column>
-				<formatIndex>6</formatIndex>
+				<formatIndex>5</formatIndex>
 			</column>
 		</columnsItem>
 		<columnsItem>
 			<index>6</index>
 			<column>
-				<formatIndex>7</formatIndex>
+				<formatIndex>6</formatIndex>
 			</column>
 		</columnsItem>
 		<columnsItem>
 			<index>5</index>
 			<column>
-				<formatIndex>8</formatIndex>
+				<formatIndex>7</formatIndex>
 			</column>
 		</columnsItem>
 		<columnsItem>
 			<index>4</index>
 			<column>
-				<formatIndex>9</formatIndex>
+				<formatIndex>8</formatIndex>
 			</column>
 		</columnsItem>
 	</columns>
 	<rowsItem>
 		<index>0</index>
 		<row>
-			<formatIndex>10</formatIndex>
+			<formatIndex>9</formatIndex>
 			<c>
 				<c>
 					<f>0</f>
@@ -82,47 +82,47 @@
 			</c>
 			<c>
 				<c>
-					<f>11</f>
+					<f>10</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>11</f>
+					<f>10</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>11</f>
+					<f>10</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>11</f>
+					<f>10</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>11</f>
+					<f>10</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>11</f>
+					<f>10</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>11</f>
+					<f>10</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>11</f>
+					<f>10</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>11</f>
+					<f>10</f>
 				</c>
 			</c>
 		</row>
@@ -130,55 +130,55 @@
 	<rowsItem>
 		<index>1</index>
 		<row>
-			<formatIndex>12</formatIndex>
+			<formatIndex>11</formatIndex>
 			<c>
 				<c>
-					<f>11</f>
+					<f>10</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>11</f>
+					<f>10</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>11</f>
+					<f>10</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>11</f>
+					<f>10</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>11</f>
+					<f>10</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>11</f>
+					<f>10</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>11</f>
+					<f>10</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>11</f>
+					<f>10</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>11</f>
+					<f>10</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>11</f>
+					<f>10</f>
 				</c>
 			</c>
 		</row>
@@ -188,53 +188,53 @@
 		<row>
 			<c>
 				<c>
-					<f>11</f>
+					<f>10</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>13</f>
+					<f>12</f>
 					<parameter>НомерЗаказа</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>11</f>
+					<f>10</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>11</f>
+					<f>10</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>11</f>
+					<f>10</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>11</f>
+					<f>10</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>11</f>
+					<f>10</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>11</f>
+					<f>10</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>11</f>
+					<f>10</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>11</f>
+					<f>10</f>
 				</c>
 			</c>
 		</row>
@@ -242,10 +242,15 @@
 	<rowsItem>
 		<index>3</index>
 		<row>
-			<formatIndex>14</formatIndex>
+			<formatIndex>13</formatIndex>
 			<c>
 				<c>
-					<f>11</f>
+					<f>10</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>14</f>
 				</c>
 			</c>
 			<c>
@@ -255,42 +260,37 @@
 			</c>
 			<c>
 				<c>
-					<f>16</f>
+					<f>10</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>11</f>
+					<f>10</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>11</f>
+					<f>10</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>11</f>
+					<f>10</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>11</f>
+					<f>10</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>11</f>
+					<f>10</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>11</f>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>11</f>
+					<f>10</f>
 				</c>
 			</c>
 		</row>
@@ -300,12 +300,12 @@
 		<row>
 			<c>
 				<c>
-					<f>11</f>
+					<f>10</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>17</f>
+					<f>16</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -316,43 +316,43 @@
 			</c>
 			<c>
 				<c>
-					<f>18</f>
+					<f>17</f>
 					<parameter>Артикул</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>11</f>
+					<f>10</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>11</f>
+					<f>10</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>11</f>
+					<f>10</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>11</f>
+					<f>10</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>11</f>
+					<f>10</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>11</f>
+					<f>10</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>11</f>
+					<f>10</f>
 				</c>
 			</c>
 		</row>
@@ -362,13 +362,18 @@
 		<row>
 			<c>
 				<c>
-					<f>11</f>
+					<f>10</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>18</f>
+					<parameter>Номенклатура</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
 					<f>19</f>
-					<parameter>Номенклатура</parameter>
 				</c>
 			</c>
 			<c>
@@ -403,12 +408,7 @@
 			</c>
 			<c>
 				<c>
-					<f>26</f>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>11</f>
+					<f>10</f>
 				</c>
 			</c>
 		</row>
@@ -416,10 +416,10 @@
 	<rowsItem>
 		<index>6</index>
 		<row>
-			<formatIndex>27</formatIndex>
+			<formatIndex>26</formatIndex>
 			<c>
 				<c>
-					<f>11</f>
+					<f>27</f>
 				</c>
 			</c>
 			<c>
@@ -430,49 +430,13 @@
 			<c>
 				<c>
 					<f>29</f>
+					<parameter>ЦенаXКоличество</parameter>
 				</c>
 			</c>
 			<c>
+				<i>9</i>
 				<c>
-					<f>30</f>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>28</f>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>31</f>
-					<parameter>Количество</parameter>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>32</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>X</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>33</f>
-					<parameter>Цена</parameter>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>11</f>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>11</f>
+					<f>27</f>
 				</c>
 			</c>
 		</row>
@@ -480,55 +444,55 @@
 	<rowsItem>
 		<index>7</index>
 		<row>
-			<formatIndex>34</formatIndex>
+			<formatIndex>30</formatIndex>
 			<c>
 				<c>
-					<f>35</f>
+					<f>31</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>35</f>
+					<f>31</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>35</f>
+					<f>31</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>36</f>
+					<f>32</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>35</f>
+					<f>31</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>37</f>
+					<f>33</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>35</f>
+					<f>31</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>35</f>
+					<f>31</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>35</f>
+					<f>31</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>35</f>
+					<f>31</f>
 				</c>
 			</c>
 		</row>
@@ -536,35 +500,35 @@
 	<rowsItem>
 		<index>8</index>
 		<row>
-			<formatIndex>38</formatIndex>
+			<formatIndex>34</formatIndex>
 			<c>
 				<c>
-					<f>11</f>
+					<f>10</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>11</f>
+					<f>10</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>11</f>
+					<f>10</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>23</f>
+					<f>22</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>11</f>
+					<f>10</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>39</f>
+					<f>35</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -575,14 +539,14 @@
 			</c>
 			<c>
 				<c>
-					<f>40</f>
+					<f>36</f>
 					<parameter>Сумма</parameter>
 				</c>
 			</c>
 			<c>
 				<i>9</i>
 				<c>
-					<f>41</f>
+					<f>37</f>
 				</c>
 			</c>
 		</row>
@@ -592,12 +556,12 @@
 		<row>
 			<c>
 				<c>
-					<f>42</f>
+					<f>38</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>43</f>
+					<f>39</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -608,42 +572,42 @@
 			</c>
 			<c>
 				<c>
-					<f>11</f>
+					<f>10</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>11</f>
+					<f>10</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>11</f>
+					<f>10</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>11</f>
+					<f>10</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>11</f>
+					<f>10</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>11</f>
+					<f>10</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>11</f>
+					<f>10</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>42</f>
+					<f>38</f>
 				</c>
 			</c>
 		</row>
@@ -651,7 +615,7 @@
 	<drawing>
 		<drawingType>Picture</drawingType>
 		<id>1</id>
-		<formatIndex>44</formatIndex>
+		<formatIndex>40</formatIndex>
 		<beginRow>0</beginRow>
 		<beginRowOffset>21</beginRowOffset>
 		<endRow>1</endRow>
@@ -659,7 +623,7 @@
 		<beginColumn>1</beginColumn>
 		<beginColumnOffset>24</beginColumnOffset>
 		<endColumn>8</endColumn>
-		<endColumnOffset>78</endColumnOffset>
+		<endColumnOffset>129</endColumnOffset>
 		<autoSize>false</autoSize>
 		<zOrder>0</zOrder>
 	</drawing>
@@ -687,11 +651,6 @@
 		<w>7</w>
 	</merge>
 	<merge>
-		<r>6</r>
-		<c>7</c>
-		<w>1</w>
-	</merge>
-	<merge>
 		<r>8</r>
 		<c>3</c>
 		<w>1</w>
@@ -700,6 +659,11 @@
 		<r>8</r>
 		<c>6</c>
 		<w>2</w>
+	</merge>
+	<merge>
+		<r>6</r>
+		<c>2</c>
+		<w>6</w>
 	</merge>
 	<namedItem xsi:type="NamedItemDrawing">
 		<name>Штрихкод</name>
@@ -767,16 +731,13 @@
 		<width>40</width>
 	</format>
 	<format>
-		<width>38</width>
-	</format>
-	<format>
 		<width>70</width>
 	</format>
 	<format>
 		<width>30</width>
 	</format>
 	<format>
-		<width>82</width>
+		<width>67</width>
 	</format>
 	<format>
 		<width>22</width>
@@ -861,39 +822,17 @@
 		<height>63</height>
 	</format>
 	<format>
-		<font>0</font>
+		<bottomBorder>0</bottomBorder>
+	</format>
+	<format>
 		<bottomBorder>0</bottomBorder>
 		<width>38</width>
 	</format>
 	<format>
 		<font>0</font>
 		<bottomBorder>0</bottomBorder>
-		<width>42</width>
-	</format>
-	<format>
-		<font>0</font>
-		<bottomBorder>0</bottomBorder>
 		<width>40</width>
-	</format>
-	<format>
-		<font>0</font>
-		<bottomBorder>0</bottomBorder>
-		<width>46</width>
 		<horizontalAlignment>Right</horizontalAlignment>
-		<verticalAlignment>Center</verticalAlignment>
-		<fillType>Parameter</fillType>
-	</format>
-	<format>
-		<font>0</font>
-		<bottomBorder>0</bottomBorder>
-		<width>45</width>
-		<horizontalAlignment>Center</horizontalAlignment>
-		<verticalAlignment>Center</verticalAlignment>
-		<fillType>Text</fillType>
-	</format>
-	<format>
-		<font>0</font>
-		<width>42</width>
 		<verticalAlignment>Center</verticalAlignment>
 		<fillType>Parameter</fillType>
 	</format>
