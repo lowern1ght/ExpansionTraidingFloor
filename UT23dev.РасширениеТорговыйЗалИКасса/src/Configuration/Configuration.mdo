@@ -55,12 +55,7 @@
   <subsystems>Subsystem.РТЗ_ТорговыйЗал</subsystems>
   <styleItems>StyleItem.ГруппаВариантовОтчетовЦвет82</styleItems>
   <styleItems>StyleItem.ПоясняющийТекст</styleItems>
-  <commonPictures>CommonPicture.ЗаполнитьФорму</commonPictures>
-  <commonPictures>CommonPicture.Набор</commonPictures>
-  <commonPictures>CommonPicture.Наборы</commonPictures>
   <commonPictures>CommonPicture.РТЗ_ИконкаПодсистемы</commonPictures>
-  <commonPictures>CommonPicture.СерииНоменклатурыКолонкаСтатусов</commonPictures>
-  <commonPictures>CommonPicture.СтатусыУказанияСерий</commonPictures>
   <roles>Role.РТЗ_БазовыеПраваТорговыйЗал</roles>
   <commonCommands>CommonCommand.РТЗ_РаботаТорговогоЗала</commonCommands>
   <constants>Constant.РТЗ_ГруппаСкладовПредприятия</constants>
@@ -75,8 +70,4 @@
   <catalogs>Catalog.ФизическиеЛица</catalogs>
   <documents>Document.РТЗ_РозничныйЗаказ</documents>
   <documents>Document.ЧекККМ</documents>
-  <enums>Enum.СпособыФормированияСегментов</enums>
-  <enums>Enum.СтатусыДействияВидовЦен</enums>
-  <enums>Enum.ТипыНалогообложенияНДС</enums>
-  <informationRegisters>InformationRegister.ОтносительныеКурсыВалют</informationRegisters>
 </mdclass:Configuration>
