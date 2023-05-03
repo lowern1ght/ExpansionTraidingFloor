@@ -5,7 +5,6 @@
     <key>ru</key>
     <value>Торговый зал</value>
   </synonym>
-  <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <explanation>
     <key>ru</key>
@@ -14,8 +13,9 @@
   <picture xsi:type="core:PictureRef">
     <picture>CommonPicture.РТЗ_ИконкаПодсистемы</picture>
   </picture>
+  <content>Role.РТЗ_БазовыеПраваТорговыйЗал</content>
+  <content>CommonPicture.РТЗ_ИконкаПодсистемы</content>
+  <content>CommonCommand.РТЗ_РаботаТорговогоЗала</content>
   <content>Document.РТЗ_РозничныйЗаказ</content>
-  <content>Role.РТЗ_Терминал</content>
-  <content>Role.РТЗ_ПодсистемаТорговыйЗал</content>
-  <subsystems>НастройкиТорговогоТерминала</subsystems>
+  <content>Constant.РТЗ_ГруппаСкладовПредприятия</content>
 </mdclass:Subsystem>

@@ -713,24 +713,8 @@
     </valueType>
     <view>
       <common>true</common>
-      <for>
-        <value>true</value>
-        <role>Role.РТЗ_ПодсистемаТорговыйЗал</role>
-      </for>
-      <for>
-        <value>true</value>
-        <role>Role.РТЗ_Терминал</role>
-      </for>
     </view>
-    <edit>
-      <for>
-        <value>true</value>
-        <role>Role.РТЗ_ПодсистемаТорговыйЗал</role>
-      </for>
-      <for>
-        <role>Role.РТЗ_Терминал</role>
-      </for>
-    </edit>
+    <edit/>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
       <segments>Объект.RegisterRecords</segments>
     </notDefaultUseAlwaysAttributes>

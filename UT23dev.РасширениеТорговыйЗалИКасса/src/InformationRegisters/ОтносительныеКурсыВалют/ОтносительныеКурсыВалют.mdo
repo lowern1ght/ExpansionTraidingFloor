@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="67624a7f-b6f0-4a8c-b7ec-ec6585be5ffd" extendedConfigurationObject="b34b580f-305b-4e22-b601-cfcf4dabaae0">
+  <producedTypes>
+    <selectionType typeId="d5da44d4-6fac-4c2c-b4e0-893cf8812517" valueTypeId="f9ab12fe-4e4e-4ea3-8469-0268c1d316e2"/>
+    <listType typeId="bb8e0ba5-8e15-4ad7-9ff3-3d2d4d33dc08" valueTypeId="c0c98987-d1c3-4d22-ac16-f93d5cfa4068"/>
+    <managerType typeId="07d927f3-a6ef-4d5c-910b-822318af713a" valueTypeId="98e73b6d-eb22-4e6e-b2fb-22b214eb2258"/>
+    <recordSetType typeId="0cdafd58-9a81-477b-be35-7ac9f8ae60ef" valueTypeId="4c4bac8e-793b-4d7e-8aa0-c26af7740fca"/>
+    <recordKeyType typeId="c84adefb-235c-4785-a455-c78558b1bf68" valueTypeId="a26e0577-65ea-4b3b-9cd5-c727e679cc0f"/>
+    <recordType typeId="66dd816e-d8e3-4c93-8ab1-24fe258c8012" valueTypeId="533ff8cd-2773-4374-a3e0-9f14fdc8f3cd"/>
+    <recordManagerType typeId="3156a55b-9a68-4069-a35b-afa0ddcae310" valueTypeId="250827eb-cf6d-41df-9d1b-d076971235a8"/>
+  </producedTypes>
+  <name>ОтносительныеКурсыВалют</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+</mdclass:InformationRegister>

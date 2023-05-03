@@ -144,6 +144,9 @@
       <segments>Объект.Корзина</segments>
     </dataPath>
     <titleLocation>None</titleLocation>
+    <excludedCommands>Add</excludedCommands>
+    <excludedCommands>Change</excludedCommands>
+    <excludedCommands>Copy</excludedCommands>
     <items xsi:type="form:FormField">
       <name>КорзинаНомерСтроки</name>
       <id>48</id>
@@ -739,14 +742,15 @@
     </additionalColumns>
   </attributes>
   <attributes>
-    <name>ВидЦеныТерминала</name>
+    <name>Склад</name>
     <title>
       <key>ru</key>
-      <value>Вид цены терминала</value>
+      <value>Склад</value>
     </title>
-    <id>7</id>
+    <id>9</id>
     <valueType>
-      <types>CatalogRef.ВидыЦен</types>
+      <types>String</types>
+      <stringQualifiers/>
     </valueType>
     <view>
       <common>true</common>
@@ -756,14 +760,31 @@
     </edit>
   </attributes>
   <attributes>
-    <name>СкладТерминал</name>
+    <name>Валюта</name>
     <title>
       <key>ru</key>
-      <value>Склад терминал</value>
+      <value>Валюта</value>
     </title>
-    <id>8</id>
+    <id>10</id>
     <valueType>
-      <types>CatalogRef.Склады</types>
+      <types>CatalogRef.Валюты</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ЦенаВключаетНДС</name>
+    <title>
+      <key>ru</key>
+      <value>Цена включает НДС</value>
+    </title>
+    <id>11</id>
+    <valueType>
+      <types>Boolean</types>
     </valueType>
     <view>
       <common>true</common>

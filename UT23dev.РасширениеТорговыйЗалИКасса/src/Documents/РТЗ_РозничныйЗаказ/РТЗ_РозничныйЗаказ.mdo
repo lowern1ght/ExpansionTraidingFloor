@@ -17,6 +17,11 @@
   <inputByString>Document.РТЗ_РозничныйЗаказ.StandardAttribute.Number</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>Use</createOnInput>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
   <fullTextSearch>Use</fullTextSearch>
   <objectPresentation>
     <key>ru</key>
@@ -171,13 +176,4 @@
       <value>Заказ</value>
     </synonym>
   </templates>
-  <commands uuid="1f90e044-4452-4f6c-a6a0-5d2efbae5aac">
-    <name>РаботаТорговогоЗала</name>
-    <synonym>
-      <key>ru</key>
-      <value>Работа торгового зала</value>
-    </synonym>
-    <group>NavigationPanelImportant</group>
-    <representation>Auto</representation>
-  </commands>
 </mdclass:Document>

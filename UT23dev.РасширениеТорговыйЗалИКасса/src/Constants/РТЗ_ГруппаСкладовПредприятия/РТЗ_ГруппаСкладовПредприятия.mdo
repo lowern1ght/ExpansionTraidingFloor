@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6272a90c-81f8-420d-af44-1d8fa9db3bf0">
+  <producedTypes>
+    <managerType typeId="48ec1d6a-54c3-43dd-a5e0-f19d34aa20f4" valueTypeId="358d2787-d86d-47ab-aa40-b08c1036b691"/>
+    <valueManagerType typeId="eff4c351-d06d-47e4-a987-18efd991923d" valueTypeId="03129beb-40d5-40d4-b463-49125c21b72c"/>
+    <valueKeyType typeId="ee466b0d-9577-427d-930f-11906ea90001" valueTypeId="87dcea86-81d6-4192-ab7b-bcf4f51615f1"/>
+  </producedTypes>
+  <name>РТЗ_ГруппаСкладовПредприятия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Группа складов предприятия</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Склады</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <choiceFoldersAndItems>Folders</choiceFoldersAndItems>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -4,9 +4,8 @@
     <visibilityFragments>
       <command>Document.РТЗ_РозничныйЗаказ.StandardCommand.Create</command>
       <visible>
-        <common>true</common>
         <for>
-          <role>Role.РТЗ_Терминал</role>
+          <role>Role.РТЗ_БазовыеПраваТорговыйЗал</role>
         </for>
       </visible>
     </visibilityFragments>
@@ -15,39 +14,28 @@
       <visible>
         <common>true</common>
         <for>
-          <value>true</value>
-          <role>Role.РТЗ_Терминал</role>
+          <role>Role.РТЗ_БазовыеПраваТорговыйЗал</role>
         </for>
       </visible>
     </visibilityFragments>
     <visibilityFragments>
-      <command>Document.РТЗ_РозничныйЗаказ.Command.РаботаТорговогоЗала</command>
+      <command>CommonCommand.РТЗ_РаботаТорговогоЗала</command>
       <visible>
         <common>true</common>
         <for>
-          <role>Role.РТЗ_ПодсистемаТорговыйЗал</role>
-        </for>
-        <for>
           <value>true</value>
-          <role>Role.РТЗ_Терминал</role>
+          <role>Role.РТЗ_БазовыеПраваТорговыйЗал</role>
+        </for>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Constant.РТЗ_ГруппаСкладовПредприятия.StandardCommand.Open</command>
+      <visible>
+        <common>true</common>
+        <for>
+          <role>Role.РТЗ_БазовыеПраваТорговыйЗал</role>
         </for>
       </visible>
     </visibilityFragments>
   </commandsVisibility>
-  <commandsPlacement>
-    <placementFragments>
-      <group>NavigationPanelSeeAlso</group>
-      <commands>Document.РТЗ_РозничныйЗаказ.StandardCommand.OpenList</commands>
-    </placementFragments>
-  </commandsPlacement>
-  <commandsOrder>
-    <orderFragments>
-      <group>NavigationPanelSeeAlso</group>
-      <commands>Document.РТЗ_РозничныйЗаказ.StandardCommand.OpenList</commands>
-    </orderFragments>
-    <orderFragments>
-      <group>NavigationPanelImportant</group>
-      <commands>Document.РТЗ_РозничныйЗаказ.Command.РаботаТорговогоЗала</commands>
-    </orderFragments>
-  </commandsOrder>
 </cmi:CommandInterface>

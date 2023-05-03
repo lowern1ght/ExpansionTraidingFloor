@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cd417da7-b78f-438c-9d96-99d45d4c9d0f">
+  <name>РТЗ_РаботаТорговогоЗала</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работа торгового зала</value>
+  </synonym>
+  <group>NavigationPanelImportant</group>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>
