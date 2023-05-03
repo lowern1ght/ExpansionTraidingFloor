@@ -69,5 +69,4 @@
   <catalogs>Catalog.УпаковкиЕдиницыИзмерения</catalogs>
   <catalogs>Catalog.ФизическиеЛица</catalogs>
   <documents>Document.РТЗ_РозничныйЗаказ</documents>
-  <documents>Document.ЧекККМ</documents>
 </mdclass:Configuration>
