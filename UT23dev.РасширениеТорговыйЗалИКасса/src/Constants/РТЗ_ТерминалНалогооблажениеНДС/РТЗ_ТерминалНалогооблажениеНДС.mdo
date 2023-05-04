@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bb3051f6-6aec-4526-88a5-ccc5d7610c7a">
+  <producedTypes>
+    <managerType typeId="54302062-0f1a-48ca-9c9a-ddae8c1f3d81" valueTypeId="c9e98918-cf60-4183-835b-f9cc12f04a4c"/>
+    <valueManagerType typeId="f819618e-63dc-4aed-9121-39a44c541529" valueTypeId="342a3aab-ce7b-472b-9503-15d8eb4ddac8"/>
+    <valueKeyType typeId="6aca7b8b-51e5-4542-a6ed-9f14a316be7d" valueTypeId="4da212e5-93e7-47eb-a7ce-5c150dcc8404"/>
+  </producedTypes>
+  <name>РТЗ_ТерминалНалогооблажениеНДС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Терминал Налогооблажение НДС</value>
+  </synonym>
+  <type>
+    <types>EnumRef.ТипыНалогообложенияНДС</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

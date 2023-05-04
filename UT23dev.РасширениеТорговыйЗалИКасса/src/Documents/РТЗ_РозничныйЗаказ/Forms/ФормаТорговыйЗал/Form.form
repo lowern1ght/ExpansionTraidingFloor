@@ -777,12 +777,29 @@
     </edit>
   </attributes>
   <attributes>
+    <name>ВидЦены</name>
+    <title>
+      <key>ru</key>
+      <value>Вид цены</value>
+    </title>
+    <id>12</id>
+    <valueType>
+      <types>CatalogRef.ВидыЦен</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
     <name>ЦенаВключаетНДС</name>
     <title>
       <key>ru</key>
       <value>Цена включает НДС</value>
     </title>
-    <id>11</id>
+    <id>14</id>
     <valueType>
       <types>Boolean</types>
     </valueType>

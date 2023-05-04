@@ -59,6 +59,7 @@
   <roles>Role.РТЗ_БазовыеПраваТорговыйЗал</roles>
   <commonCommands>CommonCommand.РТЗ_РаботаТорговогоЗала</commonCommands>
   <constants>Constant.РТЗ_ГруппаСкладовПредприятия</constants>
+  <constants>Constant.РТЗ_ТерминалНалогооблажениеНДС</constants>
   <catalogs>Catalog.Валюты</catalogs>
   <catalogs>Catalog.ВидыЦен</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
@@ -69,4 +70,5 @@
   <catalogs>Catalog.УпаковкиЕдиницыИзмерения</catalogs>
   <catalogs>Catalog.ФизическиеЛица</catalogs>
   <documents>Document.РТЗ_РозничныйЗаказ</documents>
+  <enums>Enum.ТипыНалогообложенияНДС</enums>
 </mdclass:Configuration>

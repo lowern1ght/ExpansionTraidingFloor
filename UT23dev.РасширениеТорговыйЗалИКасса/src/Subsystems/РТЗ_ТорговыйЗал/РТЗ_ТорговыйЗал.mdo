@@ -18,4 +18,5 @@
   <content>CommonCommand.РТЗ_РаботаТорговогоЗала</content>
   <content>Document.РТЗ_РозничныйЗаказ</content>
   <content>Constant.РТЗ_ГруппаСкладовПредприятия</content>
+  <content>Constant.РТЗ_ТерминалНалогооблажениеНДС</content>
 </mdclass:Subsystem>
