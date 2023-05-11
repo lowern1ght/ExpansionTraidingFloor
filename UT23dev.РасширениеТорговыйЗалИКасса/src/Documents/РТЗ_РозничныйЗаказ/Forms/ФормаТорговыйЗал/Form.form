@@ -861,6 +861,33 @@
     </action>
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
+  <parameters>
+    <name>Склад</name>
+    <valueType>
+      <types>CatalogRef.Склады</types>
+    </valueType>
+    <keyParameter>true</keyParameter>
+  </parameters>
+  <parameters>
+    <name>НалогообложениеНДС</name>
+    <valueType>
+      <types>EnumRef.ТипыНалогообложенияНДС</types>
+    </valueType>
+    <keyParameter>true</keyParameter>
+  </parameters>
+  <parameters>
+    <name>ВидЦены</name>
+    <valueType>
+      <types>CatalogRef.ВидыЦен</types>
+    </valueType>
+    <keyParameter>true</keyParameter>
+  </parameters>
+  <parameters>
+    <name>Валюта</name>
+    <valueType>
+      <types>CatalogRef.Валюты</types>
+    </valueType>
+  </parameters>
   <commandInterface>
     <navigationPanel/>
     <commandBar/>
