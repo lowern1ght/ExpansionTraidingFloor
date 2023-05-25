@@ -17,12 +17,4 @@
       <form>Extended</form>
     </extension>
   </forms>
-  <forms uuid="a34b811d-e96c-4787-9377-2dec31553676" extendedConfigurationObject="47b728c8-2c4b-415a-b5ea-3f987370eecd">
-    <name>ЗапросКоличества</name>
-    <objectBelonging>Adopted</objectBelonging>
-    <extension xsi:type="mdclassExtension:BasicFormExtension">
-      <extendedConfigurationObject>Checked</extendedConfigurationObject>
-      <form>Extended</form>
-    </extension>
-  </forms>
 </mdclass:DataProcessor>
