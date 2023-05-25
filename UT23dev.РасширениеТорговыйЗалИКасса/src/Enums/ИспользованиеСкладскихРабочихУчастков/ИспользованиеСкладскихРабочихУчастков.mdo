@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="0d48e8bb-b903-478d-affe-1884f76363b5" extendedConfigurationObject="99acb177-461e-4f89-aea3-0fffd1ca2f23">
+  <producedTypes>
+    <refType typeId="ccdc7417-6f13-4c9d-a09a-c5bdb0c100d9" valueTypeId="90aa82ee-4091-496e-ab33-2d2eef333d90"/>
+    <listType typeId="1ef92ff7-ec9c-4f60-a819-a080330d71cd" valueTypeId="f9e705cb-b51c-4395-8728-99d7a9290916"/>
+    <managerType typeId="25609106-4c1e-4387-a855-57649ca2edb0" valueTypeId="d17f72b1-716d-432e-b6a1-561b2e3e0065"/>
+  </producedTypes>
+  <name>ИспользованиеСкладскихРабочихУчастков</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Enum>

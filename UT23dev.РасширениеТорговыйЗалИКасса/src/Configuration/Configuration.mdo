@@ -56,10 +56,14 @@
   <styleItems>StyleItem.ГиперссылкаЦвет</styleItems>
   <styleItems>StyleItem.ГруппаВариантовОтчетовЦвет82</styleItems>
   <styleItems>StyleItem.ПоясняющийТекст</styleItems>
+  <commonPictures>CommonPicture.ЗаполнитьПоШаблону</commonPictures>
+  <commonPictures>CommonPicture.ЗаполнитьФорму</commonPictures>
+  <commonPictures>CommonPicture.ИнформацияПоНедоступнымПолям</commonPictures>
   <commonPictures>CommonPicture.Набор</commonPictures>
   <commonPictures>CommonPicture.Наборы</commonPictures>
   <commonPictures>CommonPicture.Номенклатура</commonPictures>
   <commonPictures>CommonPicture.НоменклатураПродаваемаяСовместно</commonPictures>
+  <commonPictures>CommonPicture.Отчеты</commonPictures>
   <commonPictures>CommonPicture.ПрочиеПользовательскиеНастройки</commonPictures>
   <commonPictures>CommonPicture.РТЗ_ИконкаПодсистемы</commonPictures>
   <commonPictures>CommonPicture.СерииНоменклатурыКолонкаСтатусов</commonPictures>
@@ -67,23 +71,32 @@
   <commonPictures>CommonPicture.СтатусыУказанияСерий</commonPictures>
   <commonPictures>CommonPicture.ФильтрПоСвойствам</commonPictures>
   <roles>Role.РТЗ_БазовыеПраваТорговыйЗал</roles>
+  <commonModules>CommonModule.РТЗ_ТорговыеНакладныеКлиентСервер</commonModules>
   <commonCommands>CommonCommand.РТЗ_РаботаТорговогоЗала</commonCommands>
   <constants>Constant.РТЗ_ГруппаСкладовПредприятия</constants>
   <constants>Constant.РТЗ_ТерминалНалогооблажениеНДС</constants>
+  <catalogs>Catalog.БизнесРегионы</catalogs>
   <catalogs>Catalog.Валюты</catalogs>
   <catalogs>Catalog.ВидыЦен</catalogs>
+  <catalogs>Catalog.Календари</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.Партнеры</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
   <catalogs>Catalog.Склады</catalogs>
   <catalogs>Catalog.СоглашенияСКлиентами</catalogs>
+  <catalogs>Catalog.СтруктураПредприятия</catalogs>
   <catalogs>Catalog.УпаковкиЕдиницыИзмерения</catalogs>
   <catalogs>Catalog.ФизическиеЛица</catalogs>
   <documents>Document.РТЗ_РозничныйЗаказ</documents>
   <enums>Enum.ВариантыОбеспечения</enums>
+  <enums>Enum.ИспользованиеСкладскихРабочихУчастков</enums>
+  <enums>Enum.ИсточникиИнформацииОЦенахДляПечати</enums>
+  <enums>Enum.НазначенияВидовЦен</enums>
+  <enums>Enum.НастройкиАдресногоХранения</enums>
   <enums>Enum.СпособыФормированияСегментов</enums>
   <enums>Enum.СтатусыДействияВидовЦен</enums>
   <enums>Enum.ТипыНалогообложенияНДС</enums>
+  <enums>Enum.ТипыСкладов</enums>
   <dataProcessors>DataProcessor.ЗапросКоличестваИСерий</dataProcessors>
   <dataProcessors>DataProcessor.ПодборТоваровВДокументПродажи</dataProcessors>
 </mdclass:Configuration>

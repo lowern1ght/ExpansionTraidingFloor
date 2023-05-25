@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="35eaf892-9fd8-46b7-9a52-d0688e744e12" extendedConfigurationObject="7a37f9be-6092-4e0d-aab0-c7994229d110">
+  <producedTypes>
+    <refType typeId="c458c7ab-7c5c-4768-88c4-74d9a1ab17d8" valueTypeId="0f6aa450-7628-45c9-b4aa-2b0bd2a21682"/>
+    <listType typeId="21e97b35-5a90-4cf1-aaeb-81237939d273" valueTypeId="888b2453-147a-47f2-a44b-4c788830672e"/>
+    <managerType typeId="7bbbfbb2-8982-4fa7-a397-32f2d4045f23" valueTypeId="fb7bd39c-c14a-4762-858a-5384de61aa85"/>
+  </producedTypes>
+  <name>НастройкиАдресногоХранения</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Enum>

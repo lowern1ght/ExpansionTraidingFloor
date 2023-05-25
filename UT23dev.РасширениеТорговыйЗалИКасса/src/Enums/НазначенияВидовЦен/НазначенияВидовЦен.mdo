@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="c99dbd15-fb0c-4e4d-a02b-235627be9e7c" extendedConfigurationObject="a9ca2751-8948-4117-ac10-4783f81777fb">
+  <producedTypes>
+    <refType typeId="679568e2-a644-4525-aeb9-71f5ab6503a5" valueTypeId="3167ab04-c2be-4ff7-bf89-aa211b0777c7"/>
+    <listType typeId="904dc7bc-515c-4cf1-adc3-06880a7f1bbb" valueTypeId="344888fa-5c58-455c-8dc9-a7e8af534e57"/>
+    <managerType typeId="2bcf005c-6a26-4e49-a740-31afa533f128" valueTypeId="7486f58b-55d0-4e9b-839e-576a3472626a"/>
+  </producedTypes>
+  <name>НазначенияВидовЦен</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <enumValues uuid="c580e0ac-fd65-4409-8862-f1a27b44c4f4" extendedConfigurationObject="dfbf5ed2-8323-46a6-9956-6d290d87e428">
+    <name>Общий</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+</mdclass:Enum>

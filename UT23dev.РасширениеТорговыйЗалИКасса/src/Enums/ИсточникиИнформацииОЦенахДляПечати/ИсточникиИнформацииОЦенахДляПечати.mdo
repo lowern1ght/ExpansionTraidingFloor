@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="1d8e993d-8cc8-46bd-b4ab-2907da9f88b8" extendedConfigurationObject="15c49219-70e2-4b3b-90a4-2409146ff9a7">
+  <producedTypes>
+    <refType typeId="e691df52-c960-48ca-b143-1db668bee30a" valueTypeId="7a861f41-6aaf-4c61-a505-4aebf051ec77"/>
+    <listType typeId="2637b660-f5c0-470e-92f7-083a0d6f4900" valueTypeId="b9c90ba1-dbfc-4d0c-92bb-d6a8c761105c"/>
+    <managerType typeId="6c81cd89-973c-4ac2-b586-ac1422fd0cbf" valueTypeId="62a240d5-293a-47b5-b829-2ead55564bf2"/>
+  </producedTypes>
+  <name>ИсточникиИнформацииОЦенахДляПечати</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <enumValues uuid="ab29af14-002a-4348-a8c8-326e299454e2" extendedConfigurationObject="7e432713-4800-4ef6-aa09-dd6027fc12d6">
+    <name>ПоВидуЦен</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="0c8a2c21-4d7c-4705-8050-de7ec856aec6" extendedConfigurationObject="acb04105-ec79-4260-ba77-8b08715be0f8">
+    <name>ПоСебестоимости</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+</mdclass:Enum>
