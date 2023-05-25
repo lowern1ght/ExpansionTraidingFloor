@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="f0372522-08aa-4cff-b12b-f29cb81d0d1e" extendedConfigurationObject="d185d3dc-369f-4bdf-962e-8954f89dadce">
+  <producedTypes>
+    <objectType typeId="6f2ce435-f652-482f-bfa3-bb00adce2a76" valueTypeId="8f772067-3fba-4409-be34-20ad38a18c5d"/>
+    <refType typeId="a080f524-3792-4c6a-abc5-a94684644ead" valueTypeId="e7dae77a-d9e7-4804-9d32-c92f35872b07"/>
+    <selectionType typeId="bba6eb45-9291-4911-bb55-8eb4a19cccf6" valueTypeId="05787da8-2f2d-441f-991e-a306afd69ce4"/>
+    <listType typeId="c9b15c63-3ea2-4ce8-9909-b0b423867a04" valueTypeId="d4a91530-c2c8-4d8b-853c-43a2fd5227f1"/>
+    <managerType typeId="2f7f03b5-7466-44b5-ac88-fa1382c50fbb" valueTypeId="5da6ce59-879d-4bfe-be59-c55cfd2cc5ef"/>
+  </producedTypes>
+  <name>СкладскиеПомещения</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <forms uuid="5952ca6a-092a-42c0-9e71-1db0bd4cbf8f" extendedConfigurationObject="1f150dba-bf06-47f5-a3ad-dd04706b7d8c">
+    <name>ФормаВыбораСОстатками</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Catalog>

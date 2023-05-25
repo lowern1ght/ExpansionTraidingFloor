@@ -72,7 +72,11 @@
   <commonPictures>CommonPicture.ФильтрПоСвойствам</commonPictures>
   <roles>Role.РТЗ_БазовыеПраваТорговыйЗал</roles>
   <commonModules>CommonModule.РТЗ_ТорговыеНакладныеКлиентСервер</commonModules>
+  <functionalOptions>FunctionalOption.ИспользоватьНаборы</functionalOptions>
+  <definedTypes>DefinedType.ДенежнаяСуммаЛюбогоЗнака</definedTypes>
+  <definedTypes>DefinedType.ДенежнаяСуммаНеотрицательная</definedTypes>
   <commonCommands>CommonCommand.РТЗ_РаботаТорговогоЗала</commonCommands>
+  <constants>Constant.ИспользоватьНаборы</constants>
   <constants>Constant.РТЗ_ГруппаСкладовПредприятия</constants>
   <constants>Constant.РТЗ_ТерминалНалогооблажениеНДС</constants>
   <catalogs>Catalog.БизнесРегионы</catalogs>
@@ -82,12 +86,17 @@
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.Партнеры</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
+  <catalogs>Catalog.СерииНоменклатуры</catalogs>
+  <catalogs>Catalog.СкладскиеПомещения</catalogs>
   <catalogs>Catalog.Склады</catalogs>
   <catalogs>Catalog.СоглашенияСКлиентами</catalogs>
+  <catalogs>Catalog.СтавкиНДС</catalogs>
   <catalogs>Catalog.СтруктураПредприятия</catalogs>
   <catalogs>Catalog.УпаковкиЕдиницыИзмерения</catalogs>
   <catalogs>Catalog.ФизическиеЛица</catalogs>
+  <catalogs>Catalog.ХарактеристикиНоменклатуры</catalogs>
   <documents>Document.РТЗ_РозничныйЗаказ</documents>
+  <documents>Document.ЧекККМ</documents>
   <enums>Enum.ВариантыОбеспечения</enums>
   <enums>Enum.ИспользованиеСкладскихРабочихУчастков</enums>
   <enums>Enum.ИсточникиИнформацииОЦенахДляПечати</enums>
@@ -96,6 +105,7 @@
   <enums>Enum.СпособыФормированияСегментов</enums>
   <enums>Enum.СтатусыДействияВидовЦен</enums>
   <enums>Enum.ТипыНалогообложенияНДС</enums>
+  <enums>Enum.ТипыНоменклатуры</enums>
   <enums>Enum.ТипыСкладов</enums>
   <dataProcessors>DataProcessor.ЗапросКоличестваИСерий</dataProcessors>
   <dataProcessors>DataProcessor.ПодборТоваровВДокументПродажи</dataProcessors>
