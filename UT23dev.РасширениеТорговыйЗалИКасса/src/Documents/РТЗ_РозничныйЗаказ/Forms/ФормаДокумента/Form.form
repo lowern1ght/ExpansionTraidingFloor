@@ -404,7 +404,7 @@
       <showInFooter>true</showInFooter>
     </items>
     <items xsi:type="form:FormField">
-      <name>КорзинаЕдиница</name>
+      <name>КорзинаУпаковка</name>
       <id>71</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -415,7 +415,7 @@
         <segments>Объект.Корзина.Упаковка</segments>
       </dataPath>
       <extendedTooltip>
-        <name>КорзинаЕдиницаРасширеннаяПодсказка</name>
+        <name>КорзинаУпаковкаРасширеннаяПодсказка</name>
         <id>73</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -430,7 +430,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>КорзинаЕдиницаКонтекстноеМеню</name>
+        <name>КорзинаУпаковкаКонтекстноеМеню</name>
         <id>72</id>
         <visible>true</visible>
         <enabled>true</enabled>
