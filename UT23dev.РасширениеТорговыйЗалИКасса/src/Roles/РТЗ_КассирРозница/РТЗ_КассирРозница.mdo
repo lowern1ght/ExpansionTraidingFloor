@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9e16be81-28ca-43be-86d2-deea5360e4d8">
+  <name>РТЗ_КассирРозница</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кассир розница</value>
+  </synonym>
+</mdclass:Role>

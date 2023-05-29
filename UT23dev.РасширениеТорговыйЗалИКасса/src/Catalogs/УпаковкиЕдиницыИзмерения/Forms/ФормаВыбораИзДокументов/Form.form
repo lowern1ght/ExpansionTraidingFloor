@@ -535,6 +535,88 @@
   <enabled>true</enabled>
   <showTitle>true</showTitle>
   <showCloseButton>true</showCloseButton>
+  <attributes>
+    <name>УпаковкиЕдиницыИзмерения</name>
+    <title>
+      <key>ru</key>
+      <value>Упаковки единицы измерения</value>
+    </title>
+    <id>1000001</id>
+    <valueType>
+      <types>ValueTree</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
+      <segments>УпаковкиЕдиницыИзмерения.ТипИзмеряемойВеличины</segments>
+    </notDefaultUseAlwaysAttributes>
+    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
+      <segments>УпаковкиЕдиницыИзмерения.Ссылка</segments>
+    </notDefaultUseAlwaysAttributes>
+    <columns>
+      <name>Ссылка</name>
+      <title>
+        <key>ru</key>
+        <value>Ссылка</value>
+      </title>
+      <id>1</id>
+      <valueType>
+        <types>CatalogRef.УпаковкиЕдиницыИзмерения</types>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
+      <view>
+        <common>true</common>
+        <for>
+          <value>true</value>
+          <role>Role.РТЗ_БазовыеПраваТорговыйЗал</role>
+        </for>
+      </view>
+      <edit>
+        <for>
+          <role>Role.РТЗ_БазовыеПраваТорговыйЗал</role>
+        </for>
+      </edit>
+    </columns>
+    <columns>
+      <name>ТипИзмеряемойВеличины</name>
+      <title>
+        <key>ru</key>
+        <value>Тип измеряемой величины</value>
+      </title>
+      <id>2</id>
+      <valueType>
+        <types>EnumRef.ТипыИзмеряемыхВеличин</types>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>ДопустимыйКоэффициент</name>
+      <title>
+        <key>ru</key>
+        <value>Допустимый коэффициент</value>
+      </title>
+      <id>3</id>
+      <valueType>
+        <types>Boolean</types>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+  </attributes>
   <commandInterface>
     <navigationPanel/>
     <commandBar/>

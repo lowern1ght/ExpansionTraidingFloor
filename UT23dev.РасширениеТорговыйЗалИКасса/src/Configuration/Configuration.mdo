@@ -71,6 +71,9 @@
   <commonPictures>CommonPicture.СтатусыУказанияСерий</commonPictures>
   <commonPictures>CommonPicture.ФильтрПоСвойствам</commonPictures>
   <roles>Role.РТЗ_БазовыеПраваТорговыйЗал</roles>
+  <roles>Role.РТЗ_КассирРозница</roles>
+  <commonModules>CommonModule.РТЗ_ПечатьЗаказаВызовСервера</commonModules>
+  <commonModules>CommonModule.РТЗ_ПечатьЗаказаКлиент</commonModules>
   <commonModules>CommonModule.РТЗ_ТорговыеНакладныеКлиентСервер</commonModules>
   <functionalOptions>FunctionalOption.ИспользоватьНаборы</functionalOptions>
   <functionalOptions>FunctionalOption.ИспользоватьСерииНоменклатуры</functionalOptions>
@@ -112,6 +115,7 @@
   <enums>Enum.НастройкиАдресногоХранения</enums>
   <enums>Enum.СпособыФормированияСегментов</enums>
   <enums>Enum.СтатусыДействияВидовЦен</enums>
+  <enums>Enum.ТипыИзмеряемыхВеличин</enums>
   <enums>Enum.ТипыНалогообложенияНДС</enums>
   <enums>Enum.ТипыНоменклатуры</enums>
   <enums>Enum.ТипыПодключаемогоОборудования</enums>

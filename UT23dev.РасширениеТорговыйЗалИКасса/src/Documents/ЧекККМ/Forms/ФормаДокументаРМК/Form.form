@@ -1590,9 +1590,6 @@
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible/>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.Товары.Штрихкод</segments>
-      </dataPath>
       <skipOnInput>true</skipOnInput>
       <extendedTooltip>
         <name>ТоварыШтрихкодРасширеннаяПодсказка</name>
@@ -1619,7 +1616,6 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
-      <type>InputField</type>
       <editMode>EnterOnInput</editMode>
       <showInHeader>true</showInHeader>
       <headerHorizontalAlign>Left</headerHorizontalAlign>
@@ -1645,9 +1641,6 @@
       </title>
       <enabled>true</enabled>
       <userVisible/>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.Товары.Номенклатура.ТипНоменклатуры</segments>
-      </dataPath>
       <extendedTooltip>
         <name>ТоварыНоменклатураТипНоменклатурыExtendedTooltip</name>
         <id>1393</id>
@@ -1673,7 +1666,6 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
-      <type>LabelField</type>
       <editMode>EnterOnInput</editMode>
       <showInHeader>true</showInHeader>
       <headerHorizontalAlign>Left</headerHorizontalAlign>
@@ -1689,9 +1681,6 @@
       <id>999</id>
       <enabled>true</enabled>
       <userVisible/>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.Товары.Номенклатура.Code</segments>
-      </dataPath>
       <extendedTooltip>
         <name>ТоварыНоменклатураКодExtendedTooltip</name>
         <id>1394</id>
@@ -1717,7 +1706,6 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
-      <type>LabelField</type>
       <editMode>EnterOnInput</editMode>
       <showInHeader>true</showInHeader>
       <headerHorizontalAlign>Left</headerHorizontalAlign>
@@ -1733,9 +1721,6 @@
       <id>1001</id>
       <enabled>true</enabled>
       <userVisible/>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.Товары.Номенклатура.Артикул</segments>
-      </dataPath>
       <extendedTooltip>
         <name>ТоварыНоменклатураАртикулExtendedTooltip</name>
         <id>1395</id>
@@ -1761,7 +1746,6 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
-      <type>LabelField</type>
       <editMode>EnterOnInput</editMode>
       <showInHeader>true</showInHeader>
       <headerHorizontalAlign>Left</headerHorizontalAlign>
@@ -1836,9 +1820,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>Объект.Товары.НоменклатураНабора</segments>
-        </dataPath>
         <extendedTooltip>
           <name>ТоварыНоменклатураНабораРасширеннаяПодсказка</name>
           <id>1756</id>
@@ -1864,7 +1845,6 @@
           </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
-        <type>InputField</type>
         <readOnly>true</readOnly>
         <editMode>EnterOnInput</editMode>
         <headerHorizontalAlign>Left</headerHorizontalAlign>
@@ -1886,9 +1866,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>Объект.Товары.ХарактеристикаНабора</segments>
-        </dataPath>
         <extendedTooltip>
           <name>ТоварыХарактеристикаНабораРасширеннаяПодсказка</name>
           <id>1759</id>
@@ -1914,7 +1891,6 @@
           </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
-        <type>InputField</type>
         <readOnly>true</readOnly>
         <editMode>EnterOnInput</editMode>
         <headerHorizontalAlign>Left</headerHorizontalAlign>
@@ -1969,9 +1945,6 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.Товары.СтатусУказанияСерий</segments>
-      </dataPath>
       <titleLocation>None</titleLocation>
       <extendedTooltip>
         <name>ТоварыСтатусУказанияСерийExtendedTooltip</name>
@@ -1998,7 +1971,6 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
-      <type>PictureField</type>
       <editMode>EnterOnInput</editMode>
       <showInHeader>true</showInHeader>
       <headerPicture xsi:type="core:PictureRef">
@@ -2027,9 +1999,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>Объект.Товары.Номенклатура</segments>
-        </dataPath>
         <extendedTooltip>
           <name>ТоварыНоменклатураExtendedTooltip</name>
           <id>1396</id>
@@ -2055,7 +2024,6 @@
           </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
-        <type>InputField</type>
         <editMode>EnterOnInput</editMode>
         <showInHeader>true</showInHeader>
         <headerHorizontalAlign>Left</headerHorizontalAlign>
@@ -2078,9 +2046,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>Объект.Товары.Характеристика</segments>
-        </dataPath>
         <titleLocation>None</titleLocation>
         <extendedTooltip>
           <name>ТоварыХарактеристикаДополнительноРасширеннаяПодсказка</name>
@@ -2107,7 +2072,6 @@
           </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
-        <type>InputField</type>
         <editMode>EnterOnInput</editMode>
         <showInHeader>true</showInHeader>
         <headerHorizontalAlign>Left</headerHorizontalAlign>
@@ -2130,9 +2094,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>Объект.Товары.Серия</segments>
-        </dataPath>
         <titleLocation>None</titleLocation>
         <extendedTooltip>
           <name>ТоварыСерияДополнительноРасширеннаяПодсказка</name>
@@ -2159,7 +2120,6 @@
           </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
-        <type>InputField</type>
         <editMode>EnterOnInput</editMode>
         <showInHeader>true</showInHeader>
         <headerHorizontalAlign>Left</headerHorizontalAlign>
@@ -2185,9 +2145,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>Объект.Товары.Упаковка</segments>
-        </dataPath>
         <titleLocation>None</titleLocation>
         <extendedTooltip>
           <name>ТоварыУпаковкаДополнительноРасширеннаяПодсказка</name>
@@ -2214,7 +2171,6 @@
           </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
-        <type>InputField</type>
         <editMode>EnterOnInput</editMode>
         <showInHeader>true</showInHeader>
         <headerHorizontalAlign>Left</headerHorizontalAlign>
@@ -2274,9 +2230,6 @@
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible/>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.Товары.Характеристика</segments>
-      </dataPath>
       <extendedTooltip>
         <name>ТоварыХарактеристикаExtendedTooltip</name>
         <id>1397</id>
@@ -2302,7 +2255,6 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
-      <type>InputField</type>
       <editMode>EnterOnInput</editMode>
       <showInHeader>true</showInHeader>
       <headerHorizontalAlign>Left</headerHorizontalAlign>
@@ -2325,9 +2277,6 @@
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible/>
-        <dataPath xsi:type="form:DataPath">
-          <segments>Объект.Товары.Серия</segments>
-        </dataPath>
         <extendedTooltip>
           <name>ТоварыСерияРасширеннаяПодсказка</name>
           <id>1506</id>
@@ -2353,7 +2302,6 @@
           </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
-        <type>InputField</type>
         <editMode>EnterOnInput</editMode>
         <showInHeader>true</showInHeader>
         <headerHorizontalAlign>Left</headerHorizontalAlign>
@@ -2414,9 +2362,6 @@
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible/>
-        <dataPath xsi:type="form:DataPath">
-          <segments>Объект.Товары.Упаковка</segments>
-        </dataPath>
         <extendedTooltip>
           <name>ТоварыУпаковкаExtendedTooltip</name>
           <id>1399</id>
@@ -2442,7 +2387,6 @@
           </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
-        <type>InputField</type>
         <editMode>EnterOnInput</editMode>
         <headerHorizontalAlign>Left</headerHorizontalAlign>
         <showInFooter>true</showInFooter>
@@ -2469,9 +2413,6 @@
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible/>
-        <dataPath xsi:type="form:DataPath">
-          <segments>Объект.Товары.Номенклатура.ЕдиницаИзмерения</segments>
-        </dataPath>
         <extendedTooltip>
           <name>ТоварыНоменклатураЕдиницаИзмеренияExtendedTooltip</name>
           <id>1400</id>
@@ -2497,7 +2438,6 @@
           </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
-        <type>LabelField</type>
         <editMode>EnterOnInput</editMode>
         <showInHeader>true</showInHeader>
         <headerHorizontalAlign>Left</headerHorizontalAlign>
@@ -2552,9 +2492,6 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.Товары.КоличествоУпаковок</segments>
-      </dataPath>
       <extendedTooltip>
         <name>ТоварыКоличествоУпаковокExtendedTooltip</name>
         <id>1401</id>
@@ -2580,14 +2517,10 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
-      <type>InputField</type>
       <editMode>EnterOnInput</editMode>
       <showInHeader>true</showInHeader>
       <headerHorizontalAlign>Left</headerHorizontalAlign>
       <showInFooter>true</showInFooter>
-      <footerDataPath xsi:type="form:DataPath">
-        <segments>Объект.Товары.TotalКоличествоУпаковок</segments>
-      </footerDataPath>
       <extInfo xsi:type="form:InputFieldExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -2605,9 +2538,6 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.Товары.Цена</segments>
-      </dataPath>
       <extendedTooltip>
         <name>ТоварыЦенаExtendedTooltip</name>
         <id>1402</id>
@@ -2633,9 +2563,62 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
-      <type>InputField</type>
       <readOnly>true</readOnly>
       <editMode>EnterOnInput</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:InputFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <wrap>true</wrap>
+        <chooseType>true</chooseType>
+        <typeDomainEnabled>true</typeDomainEnabled>
+        <textEdit>true</textEdit>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>ТоварыСклад</name>
+      <id>2284</id>
+      <title>
+        <key>ru</key>
+        <value>Склад</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Объект.Товары.РТЗ_Склад</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>ТоварыСкладРасширеннаяПодсказка</name>
+        <id>2286</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ТоварыСкладКонтекстноеМеню</name>
+        <id>2285</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>InputField</type>
+      <editMode>Enter</editMode>
       <showInHeader>true</showInHeader>
       <headerHorizontalAlign>Left</headerHorizontalAlign>
       <showInFooter>true</showInFooter>
@@ -2654,9 +2637,6 @@
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible/>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.Товары.ПроцентАвтоматическойСкидки</segments>
-      </dataPath>
       <extendedTooltip>
         <name>ТоварыПроцентАвтоматическойСкидкиРасширеннаяПодсказка</name>
         <id>2208</id>
@@ -2682,7 +2662,6 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
-      <type>InputField</type>
       <readOnly>true</readOnly>
       <editMode>EnterOnInput</editMode>
       <showInHeader>true</showInHeader>
@@ -2703,9 +2682,6 @@
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible/>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.Товары.СуммаАвтоматическойСкидки</segments>
-      </dataPath>
       <extendedTooltip>
         <name>ТоварыСуммаАвтоматическойСкидкиРасширеннаяПодсказка</name>
         <id>2211</id>
@@ -2731,7 +2707,6 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
-      <type>InputField</type>
       <readOnly>true</readOnly>
       <editMode>EnterOnInput</editMode>
       <showInHeader>true</showInHeader>
@@ -2756,9 +2731,6 @@
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible/>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.Товары.СуммаБонусныхБалловКСписаниюВВалюте</segments>
-      </dataPath>
       <extendedTooltip>
         <name>ТоварыСуммаБонусныхБалловКСписаниюВВалютеРасширеннаяПодсказка</name>
         <id>2228</id>
@@ -2784,7 +2756,6 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
-      <type>InputField</type>
       <readOnly>true</readOnly>
       <editMode>EnterOnInput</editMode>
       <showInHeader>true</showInHeader>
@@ -2805,9 +2776,6 @@
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible/>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.Товары.ПроцентРучнойСкидки</segments>
-      </dataPath>
       <extendedTooltip>
         <name>ТоварыПроцентРучнойСкидкиРасширеннаяПодсказка</name>
         <id>2214</id>
@@ -2833,7 +2801,6 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
-      <type>InputField</type>
       <editMode>EnterOnInput</editMode>
       <showInHeader>true</showInHeader>
       <headerHorizontalAlign>Left</headerHorizontalAlign>
@@ -2853,9 +2820,6 @@
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible/>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.Товары.СуммаРучнойСкидки</segments>
-      </dataPath>
       <extendedTooltip>
         <name>ТоварыСуммаРучнойСкидкиРасширеннаяПодсказка</name>
         <id>2217</id>
@@ -2881,7 +2845,6 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
-      <type>InputField</type>
       <editMode>EnterOnInput</editMode>
       <showInHeader>true</showInHeader>
       <headerHorizontalAlign>Left</headerHorizontalAlign>
@@ -2901,9 +2864,6 @@
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible/>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.Товары.Сумма</segments>
-      </dataPath>
       <extendedTooltip>
         <name>ТоварыСуммаExtendedTooltip</name>
         <id>1403</id>
@@ -2929,15 +2889,11 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
-      <type>InputField</type>
       <readOnly>true</readOnly>
       <editMode>EnterOnInput</editMode>
       <showInHeader>true</showInHeader>
       <headerHorizontalAlign>Left</headerHorizontalAlign>
       <showInFooter>true</showInFooter>
-      <footerDataPath xsi:type="form:DataPath">
-        <segments>Объект.Товары.TotalСумма</segments>
-      </footerDataPath>
       <extInfo xsi:type="form:InputFieldExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -2953,9 +2909,6 @@
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible/>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.Товары.СтавкаНДС</segments>
-      </dataPath>
       <extendedTooltip>
         <name>ТоварыСтавкаНДСExtendedTooltip</name>
         <id>1404</id>
@@ -2981,7 +2934,6 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
-      <type>InputField</type>
       <readOnly>true</readOnly>
       <editMode>EnterOnInput</editMode>
       <showInHeader>true</showInHeader>
@@ -3003,9 +2955,6 @@
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible/>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.Товары.СуммаНДС</segments>
-      </dataPath>
       <extendedTooltip>
         <name>ТоварыСуммаНДСExtendedTooltip</name>
         <id>1405</id>
@@ -3031,15 +2980,11 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
-      <type>InputField</type>
       <readOnly>true</readOnly>
       <editMode>EnterOnInput</editMode>
       <showInHeader>true</showInHeader>
       <headerHorizontalAlign>Left</headerHorizontalAlign>
       <showInFooter>true</showInFooter>
-      <footerDataPath xsi:type="form:DataPath">
-        <segments>Объект.Товары.TotalСуммаНДС</segments>
-      </footerDataPath>
       <extInfo xsi:type="form:InputFieldExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -3055,9 +3000,6 @@
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible/>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.Товары.Помещение</segments>
-      </dataPath>
       <extendedTooltip>
         <name>ТоварыПомещениеExtendedTooltip</name>
         <id>1406</id>
@@ -3083,7 +3025,6 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
-      <type>InputField</type>
       <editMode>EnterOnInput</editMode>
       <showInHeader>true</showInHeader>
       <headerHorizontalAlign>Left</headerHorizontalAlign>
@@ -3123,9 +3064,6 @@
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible/>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.Товары.Продавец</segments>
-      </dataPath>
       <extendedTooltip>
         <name>ТоварыПродавецExtendedTooltip</name>
         <id>1407</id>
@@ -3151,7 +3089,6 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
-      <type>InputField</type>
       <editMode>EnterOnInput</editMode>
       <showInHeader>true</showInHeader>
       <headerHorizontalAlign>Left</headerHorizontalAlign>
@@ -4820,7 +4757,7 @@
   <showCloseButton>true</showCloseButton>
   <attributes>
     <name>Объект</name>
-    <id>1000001</id>
+    <id>1000066</id>
     <valueType>
       <types>DocumentObject.ЧекККМ</types>
     </valueType>
@@ -4955,1244 +4892,6 @@
         <segments>Объект.СкидкиНаценки</segments>
       </tablePath>
     </additionalColumns>
-  </attributes>
-  <attributes>
-    <name>ИнформационнаяПанельСуммаСкидки</name>
-    <title>
-      <key>ru</key>
-      <value>Информационная панель сумма скидки</value>
-    </title>
-    <id>1000021</id>
-    <valueType>
-      <types>DefinedType.ДенежнаяСуммаЛюбогоЗнака</types>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>ИнформационнаяПанельСуммаБезСкидки</name>
-    <title>
-      <key>ru</key>
-      <value>Информационная панель сумма без скидки</value>
-    </title>
-    <id>1000019</id>
-    <valueType>
-      <types>DefinedType.ДенежнаяСуммаЛюбогоЗнака</types>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>АдресПримененныхСкидокВоВременномХранилище</name>
-    <title>
-      <key>ru</key>
-      <value>Адрес примененных скидок во временном хранилище</value>
-    </title>
-    <id>1000003</id>
-    <valueType>
-      <types>String</types>
-      <stringQualifiers/>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>ПараметрыПримененияСкидок</name>
-    <title>
-      <key>ru</key>
-      <value>Параметры применения скидок</value>
-    </title>
-    <id>1000051</id>
-    <valueType/>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>ЭквайринговыеТерминалы</name>
-    <title>
-      <key>ru</key>
-      <value>Эквайринговые терминалы</value>
-    </title>
-    <id>1000063</id>
-    <valueType>
-      <types>ValueList</types>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-    <extInfo xsi:type="form:ValueListExtInfo">
-      <itemValueType/>
-    </extInfo>
-  </attributes>
-  <attributes>
-    <name>КонтрольНаСкладеОтключен</name>
-    <title>
-      <key>ru</key>
-      <value>Контроль на складе отключен</value>
-    </title>
-    <id>1000039</id>
-    <valueType>
-      <types>Boolean</types>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>УправляемыеСкидки</name>
-    <title>
-      <key>ru</key>
-      <value>Управляемые скидки</value>
-    </title>
-    <id>1000062</id>
-    <valueType>
-      <types>ValueList</types>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-    <extInfo xsi:type="form:ValueListExtInfo">
-      <itemValueType/>
-    </extInfo>
-  </attributes>
-  <attributes>
-    <name>ИспользоватьПолнотекстовыйПоиск</name>
-    <title>
-      <key>ru</key>
-      <value>Использовать полнотекстовый поиск</value>
-    </title>
-    <id>1000031</id>
-    <valueType>
-      <types>Boolean</types>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>ИспользоватьУпаковкиНоменклатуры</name>
-    <title>
-      <key>ru</key>
-      <value>Использовать упаковки номенклатуры</value>
-    </title>
-    <id>1000034</id>
-    <valueType>
-      <types>Boolean</types>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>ИспользоватьПодключаемоеОборудование</name>
-    <title>
-      <key>ru</key>
-      <value>Использовать подключаемое оборудование</value>
-    </title>
-    <id>1000030</id>
-    <valueType>
-      <types>Boolean</types>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>ИспользоватьАвтоматическиеСкидкиВПродажах</name>
-    <title>
-      <key>ru</key>
-      <value>Использовать автоматические скидки в продажах</value>
-    </title>
-    <id>1000022</id>
-    <valueType>
-      <types>Boolean</types>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>ИспользоватьРучныеСкидкиВПродажах</name>
-    <title>
-      <key>ru</key>
-      <value>Использовать ручные скидки в продажах</value>
-    </title>
-    <id>1000032</id>
-    <valueType>
-      <types>Boolean</types>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>НазначатьСкидкиПоКнопкеРасчетВЧекеККМ</name>
-    <title>
-      <key>ru</key>
-      <value>Назначать скидки по кнопке расчет в чеке ККМ</value>
-    </title>
-    <id>1000043</id>
-    <valueType>
-      <types>Boolean</types>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>ИспользоватьОплатуПлатежнымиКартами</name>
-    <title>
-      <key>ru</key>
-      <value>Использовать оплату платежными картами</value>
-    </title>
-    <id>1000027</id>
-    <valueType>
-      <types>Boolean</types>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>Дисплеи</name>
-    <title>
-      <key>ru</key>
-      <value>Дисплеи</value>
-    </title>
-    <id>1000012</id>
-    <valueType>
-      <types>ValueList</types>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-    <extInfo xsi:type="form:ValueListExtInfo">
-      <itemValueType/>
-    </extInfo>
-  </attributes>
-  <attributes>
-    <name>ПараметрыУказанияСерий</name>
-    <title>
-      <key>ru</key>
-      <value>Параметры указания серий</value>
-    </title>
-    <id>1000052</id>
-    <valueType/>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-    <functionalOptions>FunctionalOption.ИспользоватьСерииНоменклатуры</functionalOptions>
-  </attributes>
-  <attributes>
-    <name>СтруктураСостояниеКассовойСмены</name>
-    <title>
-      <key>ru</key>
-      <value>Структура состояние кассовой смены</value>
-    </title>
-    <id>1000059</id>
-    <valueType/>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>ИнформационнаяБазаФайловая</name>
-    <title>
-      <key>ru</key>
-      <value>Информационная база файловая</value>
-    </title>
-    <id>1000014</id>
-    <valueType>
-      <types>Boolean</types>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>КонтролироватьАссортимент</name>
-    <title>
-      <key>ru</key>
-      <value>Контролировать ассортимент</value>
-    </title>
-    <id>1000038</id>
-    <valueType>
-      <types>Boolean</types>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>ПараметрыКассыККМ</name>
-    <title>
-      <key>ru</key>
-      <value>Параметры кассы ККМ</value>
-    </title>
-    <id>1000049</id>
-    <valueType/>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>ПоддерживаемыеТипыПодключаемогоОборудования</name>
-    <title>
-      <key>ru</key>
-      <value>Поддерживаемые типы подключаемого оборудования</value>
-    </title>
-    <id>1000053</id>
-    <valueType>
-      <types>String</types>
-      <stringQualifiers/>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>ИспользоватьХарактеристикиНоменклатуры</name>
-    <title>
-      <key>ru</key>
-      <value>Использовать характеристики номенклатуры</value>
-    </title>
-    <id>1000035</id>
-    <valueType>
-      <types>Boolean</types>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>НоваяНоменклатура</name>
-    <title>
-      <key>ru</key>
-      <value>Новая номенклатура ссылка</value>
-    </title>
-    <id>1000044</id>
-    <valueType/>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>НоваяХарактеристика</name>
-    <title>
-      <key>ru</key>
-      <value>Новая характеристика</value>
-    </title>
-    <id>1000045</id>
-    <valueType/>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>ГорячиеКлавиши</name>
-    <title>
-      <key>ru</key>
-      <value>Горячие клавиши</value>
-    </title>
-    <id>1000007</id>
-    <valueType>
-      <types>CatalogRef.ГорячиеКлавиши</types>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>БыстрыеТовары</name>
-    <title>
-      <key>ru</key>
-      <value>Быстрые товары</value>
-    </title>
-    <id>1000004</id>
-    <valueType>
-      <types>ValueTable</types>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-    <columns>
-      <name>ИмяКоманды</name>
-      <title>
-        <key>ru</key>
-        <value>Имя команды</value>
-      </title>
-      <id>1</id>
-      <valueType>
-        <types>String</types>
-        <stringQualifiers/>
-      </valueType>
-      <view>
-        <common>true</common>
-      </view>
-      <edit>
-        <common>true</common>
-      </edit>
-    </columns>
-    <columns>
-      <name>Номенклатура</name>
-      <title>
-        <key>ru</key>
-        <value>Номенклатура</value>
-      </title>
-      <id>2</id>
-      <valueType>
-        <types>CatalogRef.Номенклатура</types>
-      </valueType>
-      <view>
-        <common>true</common>
-      </view>
-      <edit>
-        <common>true</common>
-      </edit>
-    </columns>
-    <columns>
-      <name>Характеристика</name>
-      <title>
-        <key>ru</key>
-        <value>Характеристика</value>
-      </title>
-      <id>3</id>
-      <valueType>
-        <types>CatalogRef.ХарактеристикиНоменклатуры</types>
-      </valueType>
-      <view>
-        <common>true</common>
-      </view>
-      <edit>
-        <common>true</common>
-      </edit>
-    </columns>
-    <columns>
-      <name>Упаковка</name>
-      <title>
-        <key>ru</key>
-        <value>Упаковка</value>
-      </title>
-      <id>4</id>
-      <valueType>
-        <types>CatalogRef.УпаковкиЕдиницыИзмерения</types>
-      </valueType>
-      <view>
-        <common>true</common>
-      </view>
-      <edit>
-        <common>true</common>
-      </edit>
-    </columns>
-    <columns>
-      <name>ТипНоменклатуры</name>
-      <title>
-        <key>ru</key>
-        <value>Тип номенклатуры</value>
-      </title>
-      <id>5</id>
-      <valueType>
-        <types>EnumRef.ТипыНоменклатуры</types>
-      </valueType>
-      <view>
-        <common>true</common>
-      </view>
-      <edit>
-        <common>true</common>
-      </edit>
-    </columns>
-  </attributes>
-  <attributes>
-    <name>ПраваДоступа</name>
-    <title>
-      <key>ru</key>
-      <value>Права доступа</value>
-    </title>
-    <id>1000054</id>
-    <valueType/>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>ТекущийПродавец</name>
-    <title>
-      <key>ru</key>
-      <value>Текущий продавец</value>
-    </title>
-    <id>1000061</id>
-    <valueType>
-      <types>CatalogRef.Пользователи</types>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>ПринудительнаяАвторизация</name>
-    <title>
-      <key>ru</key>
-      <value>Принудительная авторизация</value>
-    </title>
-    <id>1000055</id>
-    <valueType>
-      <types>Boolean</types>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>КассирМожетБытьПродавцом</name>
-    <title>
-      <key>ru</key>
-      <value>Кассир может быть продавцом</value>
-    </title>
-    <id>1000037</id>
-    <valueType>
-      <types>Boolean</types>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>МенеджерТорговогоЗалаМожетБытьПродавцом</name>
-    <title>
-      <key>ru</key>
-      <value>Менеджер торгового зала может быть продавцом</value>
-    </title>
-    <id>1000042</id>
-    <valueType>
-      <types>Boolean</types>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>ПринудительноеЗавершениеРаботы</name>
-    <title>
-      <key>ru</key>
-      <value>Принудительное завершение работы</value>
-    </title>
-    <id>1000056</id>
-    <valueType>
-      <types>Boolean</types>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>ИспользоватьСтандартныйПоискПриПодбореТоваров</name>
-    <title>
-      <key>ru</key>
-      <value>Использовать стандартный поиск при подборе товаров</value>
-    </title>
-    <id>1000033</id>
-    <valueType>
-      <types>Boolean</types>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>ИспользоватьНоменклатуруПродаваемуюСовместно</name>
-    <title>
-      <key>ru</key>
-      <value>Использовать номенклатуру, продаваемую совместно</value>
-    </title>
-    <id>1000026</id>
-    <valueType>
-      <types>Boolean</types>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>ИспользоватьПодарочныеСертификаты</name>
-    <title>
-      <key>ru</key>
-      <value>Использовать подарочные сертификаты</value>
-    </title>
-    <id>1000029</id>
-    <valueType>
-      <types>Boolean</types>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>ИспользоватьБонусныеПрограммыЛояльности</name>
-    <title>
-      <key>ru</key>
-      <value>Использовать бонусные программы лояльности</value>
-    </title>
-    <id>1000023</id>
-    <valueType>
-      <types>Boolean</types>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>ОткрыватьФормуСПодключеннымОборудованием</name>
-    <title>
-      <key>ru</key>
-      <value>Открывать форму с подключенным оборудованием</value>
-    </title>
-    <id>1000048</id>
-    <valueType>
-      <types>Boolean</types>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-    <savedData>true</savedData>
-  </attributes>
-  <attributes>
-    <name>Оборудование</name>
-    <title>
-      <key>ru</key>
-      <value>Оборудование</value>
-    </title>
-    <id>1000046</id>
-    <valueType>
-      <types>ValueTable</types>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-    <columns>
-      <name>ТипОборудования</name>
-      <title>
-        <key>ru</key>
-        <value>Тип оборудования</value>
-      </title>
-      <id>1</id>
-      <valueType>
-        <types>EnumRef.ТипыПодключаемогоОборудования</types>
-      </valueType>
-      <view>
-        <common>true</common>
-      </view>
-      <edit>
-        <common>true</common>
-      </edit>
-    </columns>
-    <columns>
-      <name>Ссылка</name>
-      <title>
-        <key>ru</key>
-        <value>Ссылка</value>
-      </title>
-      <id>2</id>
-      <valueType>
-        <types>CatalogRef.ПодключаемоеОборудование</types>
-      </valueType>
-      <view>
-        <common>true</common>
-      </view>
-      <edit>
-        <common>true</common>
-      </edit>
-    </columns>
-    <columns>
-      <name>Объект</name>
-      <title>
-        <key>ru</key>
-        <value>Объект</value>
-      </title>
-      <id>3</id>
-      <valueType>
-        <types>CatalogRef.КассыККМ</types>
-        <types>CatalogRef.ЭквайринговыеТерминалы</types>
-      </valueType>
-      <view>
-        <common>true</common>
-      </view>
-      <edit>
-        <common>true</common>
-      </edit>
-    </columns>
-    <columns>
-      <name>Подключено</name>
-      <title>
-        <key>ru</key>
-        <value>Подключено</value>
-      </title>
-      <id>4</id>
-      <valueType>
-        <types>Number</types>
-        <numberQualifiers>
-          <precision>10</precision>
-        </numberQualifiers>
-      </valueType>
-      <view>
-        <common>true</common>
-      </view>
-      <edit>
-        <common>true</common>
-      </edit>
-    </columns>
-    <columns>
-      <name>Представление</name>
-      <title>
-        <key>ru</key>
-        <value>Представление</value>
-      </title>
-      <id>5</id>
-      <valueType>
-        <types>String</types>
-        <stringQualifiers/>
-      </valueType>
-      <view>
-        <common>true</common>
-      </view>
-      <edit>
-        <common>true</common>
-      </edit>
-    </columns>
-  </attributes>
-  <attributes>
-    <name>ДанныеДляЖурналаРегистрации</name>
-    <title>
-      <key>ru</key>
-      <value>Данные для журнала регистрации</value>
-    </title>
-    <id>1000009</id>
-    <valueType/>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>ИнформационнаяПанельСуммаКОплате</name>
-    <title>
-      <key>ru</key>
-      <value>К оплате</value>
-    </title>
-    <id>1000020</id>
-    <valueType>
-      <types>DefinedType.ДенежнаяСуммаЛюбогоЗнака</types>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>ИнформационнаяПанельНаименованиеТовара</name>
-    <title>
-      <key>ru</key>
-      <value>Информационная панель (Наименование товара)</value>
-    </title>
-    <id>1000015</id>
-    <valueType>
-      <types>FormattedString</types>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>ИнформационнаяПанельРасчетСуммы</name>
-    <title>
-      <key>ru</key>
-      <value>Информационная панель (Расчет суммы)</value>
-    </title>
-    <id>1000018</id>
-    <valueType>
-      <types>FormattedString</types>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>ИнформационнаяПанельПрочиеПараметрыИмя</name>
-    <title>
-      <key>ru</key>
-      <value>Информационная панель (Прочие параметры - Имя)</value>
-    </title>
-    <id>1000017</id>
-    <valueType>
-      <types>FormattedString</types>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>ИнформационнаяПанельПрочиеПараметрыЗначение</name>
-    <title>
-      <key>ru</key>
-      <value>Информационная панель (Прочие параметры - Значение)</value>
-    </title>
-    <id>1000016</id>
-    <valueType>
-      <types>FormattedString</types>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>ЗапрашиватьКоличество</name>
-    <title>
-      <key>ru</key>
-      <value>Запрашивать количество</value>
-    </title>
-    <id>1000013</id>
-    <valueType>
-      <types>Boolean</types>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>ИспользоватьНесколькоСкладов</name>
-    <title>
-      <key>ru</key>
-      <value>Использовать несколько складов</value>
-    </title>
-    <id>1000025</id>
-    <valueType>
-      <types>Boolean</types>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>ИспользоватьКартыЛояльности</name>
-    <title>
-      <key>ru</key>
-      <value>Использовать карты лояльности</value>
-    </title>
-    <id>1000024</id>
-    <valueType>
-      <types>Boolean</types>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>АдресКомандПечатиВоВременномХранилище</name>
-    <title>
-      <key>ru</key>
-      <value>Адрес команд печати во временном хранилище</value>
-    </title>
-    <id>1000002</id>
-    <valueType>
-      <types>String</types>
-      <stringQualifiers/>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>СтруктураСообщений</name>
-    <title>
-      <key>ru</key>
-      <value>Структура сообщений</value>
-    </title>
-    <id>1000058</id>
-    <valueType/>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>СуммаДокумента</name>
-    <title>
-      <key>ru</key>
-      <value>Сумма документа</value>
-    </title>
-    <id>1000060</id>
-    <valueType>
-      <types>DefinedType.ДенежнаяСуммаНеотрицательная</types>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>ГорячиеКлавишиНастроены</name>
-    <title>
-      <key>ru</key>
-      <value>Горячие клавиши настроены</value>
-    </title>
-    <id>1000008</id>
-    <valueType>
-      <types>Boolean</types>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>ВывестиКОплатеНаДисплейПокупателя</name>
-    <title>
-      <key>ru</key>
-      <value>Вывести к оплате на дисплей покупателя</value>
-    </title>
-    <id>1000006</id>
-    <valueType>
-      <types>Boolean</types>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>РеквизитыКассира</name>
-    <title>
-      <key>ru</key>
-      <value>Реквизиты кассира</value>
-    </title>
-    <id>1000057</id>
-    <valueType/>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>ПараметрыПодключаемыхКоманд</name>
-    <title>
-      <key>ru</key>
-      <value>Параметры подключаемых команд</value>
-    </title>
-    <id>1000050</id>
-    <valueType/>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>ДанныеФискальнойОперации</name>
-    <title>
-      <key>ru</key>
-      <value>Данные фискальной операции</value>
-    </title>
-    <id>1000011</id>
-    <valueType/>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>ДанныеДляОбработки</name>
-    <title>
-      <key>ru</key>
-      <value>Данные для обработки</value>
-    </title>
-    <id>1000010</id>
-    <valueType/>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>КэшированныеСтроки</name>
-    <title>
-      <key>ru</key>
-      <value>Кэшированные строки</value>
-    </title>
-    <id>1000041</id>
-    <valueType/>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>КэшМаркируемойПродукции</name>
-    <title>
-      <key>ru</key>
-      <value>Кэш маркируемой продукции</value>
-    </title>
-    <id>1000040</id>
-    <valueType>
-      <types>String</types>
-      <stringQualifiers/>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>ИспользуетсяЦенообразование25</name>
-    <title>
-      <key>ru</key>
-      <value>Используется ценообразование25</value>
-    </title>
-    <id>1000036</id>
-    <valueType>
-      <types>Boolean</types>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>ОбъектХраненияУсловийПродаж</name>
-    <title>
-      <key>ru</key>
-      <value>Объект хранения условий продаж</value>
-    </title>
-    <id>1000047</id>
-    <valueType>
-      <types>String</types>
-      <types>CatalogRef.ФорматыМагазинов</types>
-      <types>CatalogRef.Склады</types>
-      <stringQualifiers/>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>ВерсияФФД</name>
-    <title>
-      <key>ru</key>
-      <value>Версия ФФД</value>
-    </title>
-    <id>1000005</id>
-    <valueType>
-      <types>String</types>
-      <stringQualifiers/>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>ИспользоватьОплатуЭСФСС</name>
-    <title>
-      <key>ru</key>
-      <value>Использовать оплату ЭСФСС</value>
-    </title>
-    <id>1000028</id>
-    <valueType>
-      <types>Boolean</types>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>ЭтоОплатаЭСФСС</name>
-    <title>
-      <key>ru</key>
-      <value>Это оплата ЭСФСС</value>
-    </title>
-    <id>1000064</id>
-    <valueType>
-      <types>Boolean</types>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
   </attributes>
   <commandInterface>
     <navigationPanel/>
