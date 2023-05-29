@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="215bebd6-bc93-49ff-96ec-2b4d31b97eef" extendedConfigurationObject="5cf8a886-4a97-4f37-b902-4944c79af0ab">
+  <producedTypes>
+    <objectType typeId="f33f81e7-083c-44ad-b15e-4d85e1bda781" valueTypeId="19a3f013-36d3-477d-9a71-0318705b620e"/>
+    <refType typeId="c65c3860-e8ef-425a-a755-06f5e9b198df" valueTypeId="e399f8d5-3cbb-4774-baaf-1e931ea1721d"/>
+    <selectionType typeId="7d55bf99-44b2-45f3-bdfe-e46bb64cb4b2" valueTypeId="22ae1ecb-e42d-4027-89f6-59f0f97a0d96"/>
+    <listType typeId="f755e1d9-72c1-4c94-bbc3-23b5c49e16dd" valueTypeId="da3c5d9c-b069-44dd-819a-0e9010e66f94"/>
+    <managerType typeId="fbd56f8f-6311-4345-87e7-12feb651b616" valueTypeId="e336df7b-44d4-497f-ba4b-071d6ae3edba"/>
+  </producedTypes>
+  <name>ГорячиеКлавиши</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Catalog>

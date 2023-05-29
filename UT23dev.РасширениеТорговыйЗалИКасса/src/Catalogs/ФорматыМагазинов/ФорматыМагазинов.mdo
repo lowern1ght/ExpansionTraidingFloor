@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="f6e5c4ef-7f1f-4657-b970-7afe89c4c2f3" extendedConfigurationObject="e6e2f63a-efcd-4e45-94e8-6eb494a2464d">
+  <producedTypes>
+    <objectType typeId="abc6d582-36bb-4ee1-ad8b-7cc51ff280d2" valueTypeId="1eada9cc-eac9-4e01-9de7-8c73425a2eef"/>
+    <refType typeId="9d36531d-e141-45aa-a21f-389997037102" valueTypeId="c3486460-1780-4724-b017-d9be7eff98a6"/>
+    <selectionType typeId="c07d714e-5a9f-42d8-a517-6d56b2db5bd8" valueTypeId="a3f7974d-9b3e-478e-b0de-1801bfece9d5"/>
+    <listType typeId="69795240-75cd-4b89-a35d-f3b7cec69868" valueTypeId="5898cd23-cf1e-4dac-b36f-59c4066e8440"/>
+    <managerType typeId="763aafd2-903c-4255-8fd9-5c9fb1a369f1" valueTypeId="3c70be83-92e7-45af-bb84-3e2c458dfa2d"/>
+  </producedTypes>
+  <name>ФорматыМагазинов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Catalog>

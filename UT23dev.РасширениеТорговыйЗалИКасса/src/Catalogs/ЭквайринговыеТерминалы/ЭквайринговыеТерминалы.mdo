@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="8e7ae6ca-3a2a-413e-8220-84e661d28c46" extendedConfigurationObject="f415cd97-8647-4f10-a588-50e3e159bac3">
+  <producedTypes>
+    <objectType typeId="56ed43a7-0fd6-4b5c-bfd3-f5f73559d15d" valueTypeId="94b77d67-8980-4fbb-b0c9-c3c796d9d6e4"/>
+    <refType typeId="11dc2c19-769a-4513-aaf0-fbf047ae531f" valueTypeId="bbd5cca4-da2c-4617-b3a8-130fc8cef027"/>
+    <selectionType typeId="eeb0091a-2c90-4b87-9d61-6e45dc315515" valueTypeId="4a164618-4cc6-498e-810e-720c0f0bdd48"/>
+    <listType typeId="05be48b5-824c-4bd7-bb72-3ad0fa7b5bdc" valueTypeId="afe5cc29-297a-450d-9108-4f2223427168"/>
+    <managerType typeId="f3baddab-1711-475c-a97b-913e4da9f4aa" valueTypeId="6f1ab9c1-d03f-454b-bfca-5e92b2464acc"/>
+  </producedTypes>
+  <name>ЭквайринговыеТерминалы</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Catalog>

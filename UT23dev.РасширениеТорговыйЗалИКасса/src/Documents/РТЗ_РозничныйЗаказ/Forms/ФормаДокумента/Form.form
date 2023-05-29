@@ -412,7 +412,7 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Объект.Корзина.Единица</segments>
+        <segments>Объект.Корзина.Упаковка</segments>
       </dataPath>
       <extendedTooltip>
         <name>КорзинаЕдиницаРасширеннаяПодсказка</name>

@@ -10924,6 +10924,11 @@
     <name>РТЗ_ПриОткрытииПосле</name>
     <callType>After</callType>
   </handlers>
+  <handlers xsi:type="form:EventHandlerExtension">
+    <event>OnCreateAtServer</event>
+    <name>РТЗ_ПриСозданииНаСервереПосле</name>
+    <callType>After</callType>
+  </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>

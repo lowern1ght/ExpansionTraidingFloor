@@ -73,20 +73,26 @@
   <roles>Role.РТЗ_БазовыеПраваТорговыйЗал</roles>
   <commonModules>CommonModule.РТЗ_ТорговыеНакладныеКлиентСервер</commonModules>
   <functionalOptions>FunctionalOption.ИспользоватьНаборы</functionalOptions>
+  <functionalOptions>FunctionalOption.ИспользоватьСерииНоменклатуры</functionalOptions>
   <definedTypes>DefinedType.ДенежнаяСуммаЛюбогоЗнака</definedTypes>
   <definedTypes>DefinedType.ДенежнаяСуммаНеотрицательная</definedTypes>
   <commonCommands>CommonCommand.РТЗ_РаботаТорговогоЗала</commonCommands>
   <constants>Constant.ИспользоватьНаборы</constants>
+  <constants>Constant.ИспользоватьСерииНоменклатуры</constants>
   <constants>Constant.РТЗ_ГруппаСкладовПредприятия</constants>
   <constants>Constant.РТЗ_ТерминалНалогооблажениеНДС</constants>
   <catalogs>Catalog.БизнесРегионы</catalogs>
   <catalogs>Catalog.Валюты</catalogs>
   <catalogs>Catalog.ВидыЦен</catalogs>
+  <catalogs>Catalog.ГорячиеКлавиши</catalogs>
   <catalogs>Catalog.Календари</catalogs>
+  <catalogs>Catalog.КассыККМ</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.Партнеры</catalogs>
+  <catalogs>Catalog.ПодключаемоеОборудование</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
   <catalogs>Catalog.СерииНоменклатуры</catalogs>
+  <catalogs>Catalog.СкидкиНаценки</catalogs>
   <catalogs>Catalog.СкладскиеПомещения</catalogs>
   <catalogs>Catalog.Склады</catalogs>
   <catalogs>Catalog.СоглашенияСКлиентами</catalogs>
@@ -94,7 +100,9 @@
   <catalogs>Catalog.СтруктураПредприятия</catalogs>
   <catalogs>Catalog.УпаковкиЕдиницыИзмерения</catalogs>
   <catalogs>Catalog.ФизическиеЛица</catalogs>
+  <catalogs>Catalog.ФорматыМагазинов</catalogs>
   <catalogs>Catalog.ХарактеристикиНоменклатуры</catalogs>
+  <catalogs>Catalog.ЭквайринговыеТерминалы</catalogs>
   <documents>Document.РТЗ_РозничныйЗаказ</documents>
   <documents>Document.ЧекККМ</documents>
   <enums>Enum.ВариантыОбеспечения</enums>
@@ -106,6 +114,7 @@
   <enums>Enum.СтатусыДействияВидовЦен</enums>
   <enums>Enum.ТипыНалогообложенияНДС</enums>
   <enums>Enum.ТипыНоменклатуры</enums>
+  <enums>Enum.ТипыПодключаемогоОборудования</enums>
   <enums>Enum.ТипыСкладов</enums>
   <dataProcessors>DataProcessor.ЗапросКоличестваИСерий</dataProcessors>
   <dataProcessors>DataProcessor.ПодборТоваровВДокументПродажи</dataProcessors>

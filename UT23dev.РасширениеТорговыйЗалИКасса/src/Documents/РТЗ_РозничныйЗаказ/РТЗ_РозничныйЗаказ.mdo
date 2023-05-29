@@ -155,10 +155,10 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
     <attributes uuid="87e1c0ce-fa04-4382-becb-778f7765b057">
-      <name>Единица</name>
+      <name>Упаковка</name>
       <synonym>
         <key>ru</key>
-        <value>Единица</value>
+        <value>Упаковка</value>
       </synonym>
       <type>
         <types>CatalogRef.УпаковкиЕдиницыИзмерения</types>

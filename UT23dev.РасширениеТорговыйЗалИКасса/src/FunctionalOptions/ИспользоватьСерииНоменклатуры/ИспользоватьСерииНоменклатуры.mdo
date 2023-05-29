@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="baf80765-00d0-46a6-9b96-201774de9d7b" extendedConfigurationObject="cb214591-d1b2-4f89-b5e9-c46c9b55b60f">
+  <name>ИспользоватьСерииНоменклатуры</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:FunctionalOptionExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <location>Checked</location>
+  </extension>
+  <location>Constant.ИспользоватьСерииНоменклатуры</location>
+</mdclass:FunctionalOption>
